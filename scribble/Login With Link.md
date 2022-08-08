@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-08T00:30:05+00:00
 ---
-When I started using [Firebase](https://firebase.google.com/)I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.
+When I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.
 
 I still struggle with access control, but to take control of my auth issues I decided to try building my own solution. The result: [Login With Link](http://login-with.link) - a minimal passwordless authentication system.
 

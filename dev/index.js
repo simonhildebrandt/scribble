@@ -50726,7 +50726,24 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
   }
 
   // src/content.js
-  var content_default = [{ "path": "scribble/Light Tiles.md", "content": "---\ncreatedAt: 2022-07-15T00:01:50+00:00\n---\n\nA design for tileable panels, similar to Nanoleaf \n\n[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  \n\nTranslucent plastic cover as diffuser\n  \n[Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  \n" }, { "path": "scribble/New Site.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\n[simonhildebrandt.com](http://simonhildebrandt.com) badly needs an update, so I'm starting a new project to create something that's reasonably live.\n\n### Basic requirements\n - Markdown content managed through [Obsidian](https://obsidian.md/) \n - Hosting through [Firebase](https://firebase.google.com/)\n - Deployment via [Github Actions]([https://github.com/marketplace/actions/deploy-to-firebase-hosting#options](https://github.com/marketplace/actions/deploy-to-firebase-hosting#options))\n - Templated static HTML (for SSO) overlaid with [Chakra UI](https://chakra-ui.com/) based themed view\n\n### Advanced Features\n - RSS\n - Full text search, tag filtering\n " }, { "path": "scribble/Podcasting.md", "content": `---
+  var content_default = [{ "path": "scribble/ClockCamera.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\n---\n[ClockCamera](http://clock.camera) is a toy I envisaged sharing with my children - an excuse to do craft projects and take interesting photos, with the end goal of creating interesting digital clocks.\n\nBuilt on Firebase and MUI, the source is available [here](http://clock.camera)." }, { "path": "scribble/Gaming The Future 1.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\nMy new series of fact articles, [Gaming the Future, has debut'd on Starship Sofa](http://www.google.com/url?q=http%3A%2F%2Fwww.starshipsofa.com%2F2012%2F09%2F19%2Fstarshipsofa-no-256-charlie-jane-anders%2F&sa=D&sntz=1&usg=AOvVaw2U5xf046zyfVV2la048hZK). For those who are interested, he's some supporting information.\n\n1.  Get the games - [Portal 1](http://www.google.com/url?q=http%3A%2F%2Fstore.steampowered.com%2Fapp%2F400%2F&sa=D&sntz=1&usg=AOvVaw1G3AtovlJqT_PHFBObZN77) and [Portal 2](http://www.google.com/url?q=http%3A%2F%2Fstore.steampowered.com%2Fapp%2F620%2F&sa=D&sntz=1&usg=AOvVaw36FNZ69IM7c8cTFAYEOIJG). Or the highly recommended [Orange Box](http://www.google.com/url?q=http%3A%2F%2Fstore.steampowered.com%2Fsub%2F469%2F&sa=D&sntz=1&usg=AOvVaw22uvMCsimwmFT8rYojsEsQ).\n2.  [Get the soundtrack for Portal 2 - free!](http://www.google.com/url?q=http%3A%2F%2Fwww.thinkwithportals.com%2Fmusic.php&sa=D&sntz=1&usg=AOvVaw03yJwvhyAniEXA5g2Frrch)\n3.  The Portal 2 comic, illustrated by Michael Avon Oeming and Andrea Wicklund, written by Ted Kosmatka - [Lab Rat](http://www.google.com/url?q=http%3A%2F%2Fwww.thinkwithportals.com%2Fcomic%2F&sa=D&sntz=1&usg=AOvVaw3U7F2g6nruEF06n30SbSiB).\n\nLook out for episode #2 - Homeworld.\n\nOur music is by [Cheapshot](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2F&sa=D&sntz=1&usg=AOvVaw3J_lcLHGoe0H35SYfEi8L9), from the album [Streets of Bass](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2Falbum%2Fstreets-of-bass&sa=D&sntz=1&usg=AOvVaw1lSr2DHjqUDkFll1KQE4Hd), used with permission." }, { "path": "scribble/Gaming The Future 2.md", "content": "---\ncreatedAt: 2022-08-08T07:07:32+00:00\n---\nFor those interested in more information about the Homeworld games, I'd recommend the following links:\n\n-   [Watch the cinematics on YouTube](http://www.youtube.com/watch?v=yrW4jkQdmjI) - they're lovely, and give you a good background for the game.\n-   [Relic's download page for Homeworld-related stuff](http://www.google.com/url?q=http%3A%2F%2Fwww.relicnews.com%2Fhomeworld%2Fhw-downloads%2F&sa=D&sntz=1&usg=AOvVaw3N8_snv6K_IvB0Qh7X8Q3A) - demos, patches, desktop themes - even the source code of the game, and a unit viewer.\n\nHope you enjoyed my article, and I'll see you in a month, with my next topic: Frank Herbert's Dune.\n\nOur music is by [Cheapshot](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2F&sa=D&sntz=1&usg=AOvVaw3J_lcLHGoe0H35SYfEi8L9), from the album [Streets of Bass](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2Falbum%2Fstreets-of-bass&sa=D&sntz=1&usg=AOvVaw1lSr2DHjqUDkFll1KQE4Hd), used with permission." }, { "path": "scribble/Gaming The Future 3.md", "content": "---\ncreatedAt: 2022-08-08T07:08:52+00:00\n---\nFor those interested in digging a little deeper into the Dune games, following [my new 'Gaming the Future' article](http://www.google.com/url?q=http%3A%2F%2Fwww.starshipsofa.com%2F2012%2F11%2F06%2Fstarshipsofa-no-263-pamela-sargent%2F&sa=D&sntz=1&usg=AOvVaw0UecWXCt892fc0d4SouhjA), I recommend:\n\n1.  [Checking out the soundtrack of Dune 1 on Youtube](http://www.youtube.com/watch?v=FjHon6yg-r8&feature=related).\n2.  [Take a look at the list of Dune games on Wikipedia](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FList_of_Dune_games&sa=D&sntz=1&usg=AOvVaw198G9-SJ2FLesUR2dSWu81).\n3.  [Checking out the original film](http://www.google.com/url?q=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0087182%2F&sa=D&sntz=1&usg=AOvVaw2atpxCd2yU2Ja2YK3mhyU0).\n\nOur music is by [Cheapshot](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2F&sa=D&sntz=1&usg=AOvVaw3J_lcLHGoe0H35SYfEi8L9), from the album [Streets of Bass](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2Falbum%2Fstreets-of-bass&sa=D&sntz=1&usg=AOvVaw1lSr2DHjqUDkFll1KQE4Hd), used with permission." }, { "path": "scribble/Gaming The Future 4.md", "content": `---
+createdAt: 2022-08-08T07:09:57+00:00
+---
+For those following my [Starship Sofa column](http://www.google.com/url?q=http%3A%2F%2Fwww.starshipsofa.com%2F2012%2F12%2F19%2Fstarshipsofa-no-269-alec-nevala-lee-part-1%2F&sa=D&sntz=1&usg=AOvVaw2Xjh0OqpSuBMZ3ZbhO1RVM), or just interested in information about Startopia, try these links:
+
+1.  Wikipedia: [http://en.wikipedia.org/wiki/Startopia](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStartopia&sa=D&sntz=1&usg=AOvVaw0WCvVl7tAI79zotbgFyt5L)
+2.  Opening cinematic on youtube: [http://www.youtube.com/watch?v=jK79tBd6EZw](http://www.youtube.com/watch?v=jK79tBd6EZw)
+3.  Development postmortem: [http://www.gamasutra.com/view/feature/131436/postmortem_startopia.php](http://www.google.com/url?q=http%3A%2F%2Fwww.gamasutra.com%2Fview%2Ffeature%2F131436%2Fpostmortem_startopia.php&sa=D&sntz=1&usg=AOvVaw3HrDUuSYr1gI2Q_CazVjgs)
+4.  Play guide: [http://www.rakrent.com/rtsc/rtsc_startopia.htm](http://www.google.com/url?q=http%3A%2F%2Fwww.rakrent.com%2Frtsc%2Frtsc_startopia.htm&sa=D&sntz=1&usg=AOvVaw1bJ2z3MLhMq7lTQzKFMZ8K)
+5.  Buy Startopia from GOG: [http://www.gog.com/gamecard/startopia](http://www.google.com/url?q=http%3A%2F%2Fwww.gog.com%2Fgamecard%2Fstartopia&sa=D&sntz=1&usg=AOvVaw3gxNguPKvby0rEZTyKIVWE)
+
+_**Bonus: VAL quotes**_
+
+Including my favourite: "Ask those aliens if they've crashed into the New Mexico desert lately. I dare you."
+
+[http://forums.eidosgames.com/archive/index.php/t-17524.html](http://www.google.com/url?q=http%3A%2F%2Fforums.eidosgames.com%2Farchive%2Findex.php%2Ft-17524.html&sa=D&sntz=1&usg=AOvVaw2lhMeZ76b0mvVGq2izsuR-)
+
+Our music is by [Cheapshot](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2F&sa=D&sntz=1&usg=AOvVaw3J_lcLHGoe0H35SYfEi8L9), from the album [Streets of Bass](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2Falbum%2Fstreets-of-bass&sa=D&sntz=1&usg=AOvVaw1lSr2DHjqUDkFll1KQE4Hd), used with permission.` }, { "path": "scribble/Gaming The Future 5.md", "content": "---\ncreatedAt: 2022-08-08T07:10:32+00:00\n---\nFor those interested in [my latest column on Starship Sofa](http://www.google.com/url?q=http%3A%2F%2Fwww.starshipsofa.com%2F2013%2F02%2F13%2Fstarshipsofa-no-276-ken-liu%2F&sa=D&sntz=1&usg=AOvVaw3zxu6KIMZKLxmwie_-s4QK), here's a few quick links to help out:\n\n-   More info on [Wikipedia](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAnother_World_%28video_game%29&sa=D&sntz=1&usg=AOvVaw3TAeo0iEnquD8vxgtJAKtx),\n-   buy the game at [GOG.com](http://www.google.com/url?q=http%3A%2F%2Fwww.gog.com%2Fgamecard%2Fanother_world_15th_anniversary_edition&sa=D&sntz=1&usg=AOvVaw1LK0O66c1Ktr9DjhWO92bd), or\n-   buy it on the [Android Play Store](https://play.google.com/store/apps/details?id=com.dotemu.anotherworld&hl=en).\n\nOur music is by [Cheapshot](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2F&sa=D&sntz=1&usg=AOvVaw3J_lcLHGoe0H35SYfEi8L9), from the album [Streets of Bass](http://www.google.com/url?q=http%3A%2F%2Fcheapshot.bandcamp.com%2Falbum%2Fstreets-of-bass&sa=D&sntz=1&usg=AOvVaw1lSr2DHjqUDkFll1KQE4Hd), used with permission." }, { "path": "scribble/L5.md", "content": "---\ncreatedAt: 2022-08-08T03:32:26+00:00\n---\nL5 is a game concept - a cute management sim where the player builds and tunes a 3D modular space habitat.\n\nCurrent ambition is to prototype in Unity, exploring controls, art and core systems.\n\nExamples of modules:\n - Basic hab  \n - Power: Solar, fission, fusion  \n - Batteries  \n - Water tanks  \n - Storage  \n - Dormitory  \n - Hydroponics  \n - Kitchen  \n - Engineering, fabrication  \n - Smelting  \n - Air processing  \n - Engines  \n - Armour  \n - Weapons  \n - Comms  \n - Mining  \n - Access tube  \n - Waste processing?  \n  \nResources: Water, bio-waste, air, power, food, metal  \n  \n[https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html](https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html)" }, { "path": "scribble/Light Tiles.md", "content": "---\ncreatedAt: 2022-07-15T00:01:50+00:00\n---\n\nA design for tileable panels, similar to Nanoleaf \n\n[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  \n\nTranslucent plastic cover as diffuser\n  \n[Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  \n" }, { "path": "scribble/Login With Link.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\n---\nWhen I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.\n\nI still struggle with access control, but to take control of my auth issues I decided to try building my own solution. The result: [Login With Link](http://login-with.link) - a minimal passwordless authentication system.\n\nIt uses Firebase (ironically) for hosting, database and cloud functions, and Amazon's SES for email sending. It's currently free for hobbyist usage, and the code is [here](https://github.com/simonhildebrandt/login-with-link)." }, { "path": "scribble/New Site.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\n[simonhildebrandt.com](http://simonhildebrandt.com) badly needs an update, so I'm starting a new project to create something that's reasonably live.\n\n### Basic requirements\n - Markdown content managed through [Obsidian](https://obsidian.md/) \n - Hosting through [Firebase](https://firebase.google.com/)\n - Deployment via [Github Actions]([https://github.com/marketplace/actions/deploy-to-firebase-hosting#options](https://github.com/marketplace/actions/deploy-to-firebase-hosting#options))\n - Templated static HTML (for SSO) overlaid with [Chakra UI](https://chakra-ui.com/) based themed view\n\n### Advanced Features\n - RSS\n - Full text search, tag filtering\n " }, { "path": "scribble/Podcasting.md", "content": `---
 createdAt: 2022-08-02T00:01:50+00:00
 ---
 I've loved stories read aloud ever since my parents read to me as a child. So when I discovered podcasting and fiction narration, I knew I had to give it a try.
@@ -50761,11 +50778,11 @@ So far I've read stories for the following District of Wonders podcasts - [Stars
 
 In addition to narrating stories I've also started contributing periodic articles - currently I'm doing "Gaming the Future" for Starship Sofa.
 
-1.  Gaming the Future #1: Portal 1 & 2 in [Starship Sofa #256](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/) (8:40) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture1portal12)
-2.  Gaming the Future #2: Homeworld 1, Cataclysm & 2 in [StarShipSofa #260](http://www.starshipsofa.com/2012/10/17/starshipsofa-no-260-bradner-buckner/) (4:00) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture2homeworld)
-3.  Gaming the Future #3: Dune in [Starship Sofa #263](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/) (7:50) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture3dune)
-4.  Gaming the Future #4: Startopia in [Starship Sofa #269](http://www.starshipsofa.com/2012/12/19/starshipsofa-no-269-alec-nevala-lee-part-1/) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture4startopia)
-5.  Gaming the Future #5: Another World in [Starship Sofa #276](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) (1:07) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture5anotherworld)
+1.  Gaming the Future #1: Portal 1 & 2 in [Starship Sofa #256](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/) (8:40) [[Gaming The Future 1|show notes]]
+2.  Gaming the Future #2: Homeworld 1, Cataclysm & 2 in [StarShipSofa #260](http://www.starshipsofa.com/2012/10/17/starshipsofa-no-260-bradner-buckner/) (4:00) [[Gaming The Future 2|show notes]]
+3.  Gaming the Future #3: Dune in [Starship Sofa #263](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/) (7:50) [[Gaming The Future 3|show notes]]
+4.  Gaming the Future #4: Startopia in [Starship Sofa #269](http://www.starshipsofa.com/2012/12/19/starshipsofa-no-269-alec-nevala-lee-part-1/) [[Gaming The Future 4|show notes]]
+5.  Gaming the Future #5: Another World in [Starship Sofa #276](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) (1:07) [[Gaming The Future 5|show notes]]
 
 # Recommended Podcasts
 
@@ -51495,8 +51512,8 @@ In addition to narrating stories I've also started contributing periodic article
           addPlugin(value3);
         } else if (typeof value3 === "object") {
           if (Array.isArray(value3)) {
-            const [plugin, ...options2] = value3;
-            addPlugin(plugin, ...options2);
+            const [plugin2, ...options2] = value3;
+            addPlugin(plugin2, ...options2);
           } else {
             addPreset(value3);
           }
@@ -51522,11 +51539,11 @@ In addition to narrating stories I've also started contributing periodic article
           throw new TypeError("Expected a list of plugins, not `" + plugins + "`");
         }
       }
-      function addPlugin(plugin, value3) {
+      function addPlugin(plugin2, value3) {
         let index2 = -1;
         let entry;
         while (++index2 < attachers.length) {
-          if (attachers[index2][0] === plugin) {
+          if (attachers[index2][0] === plugin2) {
             entry = attachers[index2];
             break;
           }
@@ -65439,6 +65456,43 @@ ${end.comment}` : end.comment;
     return doc2.toJS(Object.assign({ reviver: _reviver }, options));
   }
 
+  // src/obsidian-links-plugin.js
+  var BRACKET_LINK_REGEX = /\[\[([a-zA-ZÀ-ÿ0-9-'?%.():&,+/€! ]+)#?([a-zA-ZÀ-ÿ0-9-'?%.():&,+/€! ]+)?\|?([a-zA-ZÀ-ÿ0-9-'?%.():&,+/€! ]+)?\]\]/;
+  var plugin = (options = {}) => (tree) => {
+    const { linkBuilder = (link2) => `/${link2}` } = options;
+    visit(tree, "paragraph", (node, index2, parent) => {
+      const newChildren = node.children.map((child, index3) => {
+        const { type, value: value2 } = child;
+        if (type == "text" && value2.match(BRACKET_LINK_REGEX)) {
+          const fragments = value2.split(/(\[\[[^\]]*\]\])/);
+          return fragments.map((fragment) => {
+            let result = fragment.match(BRACKET_LINK_REGEX);
+            if (result) {
+              const [_bracketLink, link2, heading2, text5] = result;
+              return {
+                type: "link",
+                url: linkBuilder(link2),
+                children: [{
+                  type: "text",
+                  value: heading2 || text5
+                }]
+              };
+            } else {
+              return {
+                type: "text",
+                value: fragment
+              };
+            }
+          });
+        } else {
+          return child;
+        }
+      });
+      node.children = newChildren.flat(1);
+    });
+  };
+  var obsidian_links_plugin_default = plugin;
+
   // src/extra-data-plugin.js
   function addExtraData(options) {
     return (_tree, file) => {
@@ -65447,11 +65501,11 @@ ${end.comment}` : end.comment;
   }
 
   // src/parse-md.js
-  async function parseMd(content3) {
-    return Promise.all(content3.map(async (page) => {
+  function parseMd(content3) {
+    return content3.map((page) => {
       const { content: content4, path: path2 } = page;
-      return unified().use(remark_parse_default).use(import_remark_extract_frontmatter.default, { yaml: parse4 }).use(addExtraData, { path: path2 }).use(remarkFrontmatter).use(lib_default).use(rehypeStringify).process(content4);
-    }));
+      return unified().use(remark_parse_default).use(obsidian_links_plugin_default, { linkBuilder: (link2) => `/#scribble/${link2}.md` }).use(import_remark_extract_frontmatter.default, { yaml: parse4 }).use(addExtraData, { path: path2 }).use(remarkFrontmatter).use(lib_default).use(rehypeStringify).processSync(content4);
+    });
   }
 
   // src/pages.jsx
@@ -66145,11 +66199,8 @@ ${end.comment}` : end.comment;
 
   // src/index.jsx
   var App = () => {
-    const [pages, setPages] = (0, import_react43.useState)([]);
-    (0, import_react43.useEffect)(() => {
-      parseMd(content_default).then((data) => setPages(data));
-    }, []);
-    const sorted = [...pages].sort((a2, b2) => {
+    let pages = parseMd(content_default);
+    pages.sort((a2, b2) => {
       return b2.data.createdAt.localeCompare(a2.data.createdAt);
     });
     return /* @__PURE__ */ import_react43.default.createElement(ChakraProvider3, {
@@ -66169,7 +66220,7 @@ ${end.comment}` : end.comment;
       flexDirection: "column",
       gap: 10
     }, /* @__PURE__ */ import_react43.default.createElement(Pages, {
-      pages: sorted
+      pages
     }))));
   };
   import_client.default.createRoot(document.getElementById("app")).render(/* @__PURE__ */ import_react43.default.createElement(App, null));

@@ -4,9 +4,6 @@
 // import remarkFrontmatter from 'remark-frontmatter'
 // import remarkStringify from 'remark-stringify'
 
-//import watch from 'node-watch';
-
-
 // main()
 
 // async function main() {
@@ -41,10 +38,4 @@ async function parseFiles() {
   fs.writeFile('src/content.js', prefix + JSON.stringify(data));
 }
 
-// if (process.env.WATCH) {
-//   console.log('watching scribble/*.md');
-//   parseFiles();
-//   watch('scribble', { filter: /\.md$/ }, parseFiles);
-// } else {
-  parseFiles();
-// }
+parseFiles();

@@ -33,11 +33,11 @@ So far I've read stories for the following District of Wonders podcasts - [Stars
 
 In addition to narrating stories I've also started contributing periodic articles - currently I'm doing "Gaming the Future" for Starship Sofa.
 
-1.  Gaming the Future #1: Portal 1 & 2 in [Starship Sofa #256](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/) (8:40) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture1portal12)
-2.  Gaming the Future #2: Homeworld 1, Cataclysm & 2 in [StarShipSofa #260](http://www.starshipsofa.com/2012/10/17/starshipsofa-no-260-bradner-buckner/) (4:00) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture2homeworld)
-3.  Gaming the Future #3: Dune in [Starship Sofa #263](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/) (7:50) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture3dune)
-4.  Gaming the Future #4: Startopia in [Starship Sofa #269](http://www.starshipsofa.com/2012/12/19/starshipsofa-no-269-alec-nevala-lee-part-1/) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture4startopia)
-5.  Gaming the Future #5: Another World in [Starship Sofa #276](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) (1:07) [show notes](https://sites.google.com/site/simonhildebrandt/home/gamingthefuture5anotherworld)
+1.  Gaming the Future #1: Portal 1 & 2 in [Starship Sofa #256](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/) (8:40) [[Gaming The Future 1|show notes]]
+2.  Gaming the Future #2: Homeworld 1, Cataclysm & 2 in [StarShipSofa #260](http://www.starshipsofa.com/2012/10/17/starshipsofa-no-260-bradner-buckner/) (4:00) [[Gaming The Future 2|show notes]]
+3.  Gaming the Future #3: Dune in [Starship Sofa #263](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/) (7:50) [[Gaming The Future 3|show notes]]
+4.  Gaming the Future #4: Startopia in [Starship Sofa #269](http://www.starshipsofa.com/2012/12/19/starshipsofa-no-269-alec-nevala-lee-part-1/) [[Gaming The Future 4|show notes]]
+5.  Gaming the Future #5: Another World in [Starship Sofa #276](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) (1:07) [[Gaming The Future 5|show notes]]
 
 # Recommended Podcasts
 

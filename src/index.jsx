@@ -12,20 +12,18 @@ import Pages from './pages';
   
 
 const App = () => {
-  const [pages, setPages] = useState([]);
-
-  useEffect(() => {
-    parseMd(content).then(data => setPages(data));
-  }, []);
-
-  const sorted = [...pages].sort((a,b) => {
+  let pages = parseMd(content);
+  
+  pages.sort((a,b) => {
     return b.data.createdAt.localeCompare(a.data.createdAt);
   });
+
+  // pages = pages.slice(7)
 
   return <ChakraProvider theme={theme} resetCSS={false}>
     <Flex width="100%" height="100%" bg="gray.100" overflowY="scroll">
       <Flex p={8} maxWidth={640} m="auto" bg="white" overflow="hidden" flexDirection="column" gap={10}>
-        { <Pages pages={sorted}/> }
+        { <Pages pages={pages}/> }
       </Flex>
     </Flex>
   </ChakraProvider>;
