@@ -1,6 +1,11 @@
 import { extendTheme } from '@chakra-ui/react';
 
 const theme = extendTheme({
+  layerStyles: {
+    cursive: {
+      fontFamily: 'Playball, cursive'
+    }
+  },
   fonts: {
     body: "Domine",
   },
@@ -9,6 +14,9 @@ const theme = extendTheme({
   },
   styles: {
     global: {
+      img: {
+        maxWidth: "100%",
+      },
       body: {
         fontSize: "16px",
         lineHeight: "24px"

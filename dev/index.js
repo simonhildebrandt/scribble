@@ -50743,7 +50743,7 @@ Including my favourite: "Ask those aliens if they've crashed into the New Mexico
 
 [http://forums.eidosgames.com/archive/index.php/t-17524.html](http://forums.eidosgames.com/archive/index.php/t-17524.html)
 
-Our music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission.` }, { "path": "scribble/Gaming The Future 5.md", "content": "---\ncreatedAt: 2022-08-08T07:10:32+00:00\n---\nFor those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/), here's a few quick links to help out:\n\n-   More info on [Wikipedia](http://en.wikipedia.org/wiki/Another_World_(video_game)),\n-   buy the game at [GOG.com](http://www.gog.com/gamecard/another_world_15th_anniversary_edition), or\n-   buy it on the [Android Play Store](https://play.google.com/store/apps/details?id=com.dotemu.anotherworld&hl=en).\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/L5.md", "content": "---\ncreatedAt: 2022-08-08T03:32:26+00:00\n---\nL5 is a game concept - a cute management sim where the player builds and tunes a 3D modular space habitat.\n\nCurrent ambition is to prototype in Unity, exploring controls, art and core systems.\n\nExamples of modules:\n - Basic hab  \n - Power: Solar, fission, fusion  \n - Batteries  \n - Water tanks  \n - Storage  \n - Dormitory  \n - Hydroponics  \n - Kitchen  \n - Engineering, fabrication  \n - Smelting  \n - Air processing  \n - Engines  \n - Armour  \n - Weapons  \n - Comms  \n - Mining  \n - Access tube  \n - Waste processing?  \n  \nResources: Water, bio-waste, air, power, food, metal  \n  \n[https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html](https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html)" }, { "path": "scribble/Light Tiles.md", "content": "---\ncreatedAt: 2022-07-15T00:01:50+00:00\n---\n\nA design for tileable panels, similar to Nanoleaf \n\n[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  \n\nTranslucent plastic cover as diffuser\n  \n[Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  \n" }, { "path": "scribble/Login With Link.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\n---\nWhen I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.\n\nI still struggle with access control, but to take control of my auth issues I decided to try building my own solution. The result: [Login With Link](http://login-with.link) - a minimal passwordless authentication system.\n\nIt uses Firebase (ironically) for hosting, database and cloud functions, and Amazon's SES for email sending. It's currently free for hobbyist usage, and the code is [here](https://github.com/simonhildebrandt/login-with-link)." }, { "path": "scribble/New Site.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\n[simonhildebrandt.com](http://simonhildebrandt.com) badly needs an update, so I'm starting a new project to create something that's reasonably live.\n\n### Basic requirements\n - Markdown content managed through [Obsidian](https://obsidian.md/) \n - Hosting through [Firebase](https://firebase.google.com/)\n - Deployment via [Github Actions]([https://github.com/marketplace/actions/deploy-to-firebase-hosting#options](https://github.com/marketplace/actions/deploy-to-firebase-hosting#options))\n - Templated static HTML (for SSO) overlaid with [Chakra UI](https://chakra-ui.com/) based themed view\n\n### Advanced Features\n - RSS\n - Full text search, tag filtering\n " }, { "path": "scribble/Podcasting.md", "content": `---
+Our music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission.` }, { "path": "scribble/Gaming The Future 5.md", "content": "---\ncreatedAt: 2022-08-08T07:10:32+00:00\n---\nFor those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) about the game Another World, here's a few quick links to help out:\n\n-   More info on [Wikipedia](http://en.wikipedia.org/wiki/Another_World_(video_game)),\n-   buy the game at [GOG.com](http://www.gog.com/gamecard/another_world_15th_anniversary_edition), or\n-   buy it on the [Android Play Store](https://play.google.com/store/apps/details?id=com.dotemu.anotherworld&hl=en).\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/L5.md", "content": "---\ncreatedAt: 2022-08-08T03:32:26+00:00\n---\nL5 is a game concept - a cute management sim where the player builds and tunes a 3D modular space habitat.\n\nCurrent ambition is to prototype in Unity, exploring controls, art and core systems.\n\nExamples of modules:\n - Basic hab  \n - Power: Solar, fission, fusion  \n - Batteries  \n - Water tanks  \n - Storage  \n - Dormitory  \n - Hydroponics  \n - Kitchen  \n - Engineering, fabrication  \n - Smelting  \n - Air processing  \n - Engines  \n - Armour  \n - Weapons  \n - Comms  \n - Mining  \n - Access tube  \n - Waste processing?  \n  \nResources: Water, bio-waste, air, power, food, metal  \n  \n[https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html](https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html)" }, { "path": "scribble/Light Tiles.md", "content": "---\ncreatedAt: 2022-07-15T00:01:50+00:00\n---\n\nA design for tileable panels, similar to Nanoleaf \n\n[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  \n\nTranslucent plastic cover as diffuser\n  \n[Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  \n" }, { "path": "scribble/Login With Link.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\n---\nWhen I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.\n\nI still struggle with access control, but to take control of my auth issues I decided to try building my own solution. The result: [Login With Link](http://login-with.link) - a minimal passwordless authentication system.\n\nIt uses Firebase (ironically) for hosting, database and cloud functions, and Amazon's SES for email sending. It's currently free for hobbyist usage, and the code is [here](https://github.com/simonhildebrandt/login-with-link)." }, { "path": "scribble/New Site.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\n[simonhildebrandt.com](http://simonhildebrandt.com) badly needs an update, so I'm starting a new project to create something that's reasonably live.\n\n### Basic requirements\n - Markdown content managed through [Obsidian](https://obsidian.md/) \n - Hosting through [Firebase](https://firebase.google.com/)\n - Deployment via [Github Actions]([https://github.com/marketplace/actions/deploy-to-firebase-hosting#options](https://github.com/marketplace/actions/deploy-to-firebase-hosting#options))\n - Templated static HTML (for SSO) overlaid with [Chakra UI](https://chakra-ui.com/) based themed view\n\n### Advanced Features\n - RSS\n - Full text search, tag filtering\n " }, { "path": "scribble/Podcasting.md", "content": `---
 createdAt: 2022-08-02T00:01:50+00:00
 ---
 I've loved stories read aloud ever since my parents read to me as a child. So when I discovered podcasting and fiction narration, I knew I had to give it a try.
@@ -50806,6 +50806,11 @@ In addition to narrating stories I've also started contributing periodic article
 
   // src/theme.js
   var theme2 = extendTheme({
+    layerStyles: {
+      cursive: {
+        fontFamily: "Playball, cursive"
+      }
+    },
     fonts: {
       body: "Domine"
     },
@@ -50814,6 +50819,9 @@ In addition to narrating stories I've also started contributing periodic article
     },
     styles: {
       global: {
+        img: {
+          maxWidth: "100%"
+        },
         body: {
           fontSize: "16px",
           lineHeight: "24px"
@@ -66207,20 +66215,35 @@ ${end.comment}` : end.comment;
       theme: theme2,
       resetCSS: false
     }, /* @__PURE__ */ import_react43.default.createElement(Flex, {
+      bg: "gray.100",
+      width: "100%",
+      height: "100%"
+    }, /* @__PURE__ */ import_react43.default.createElement(Flex, {
+      m: "auto",
+      maxWidth: 640,
       width: "100%",
       height: "100%",
-      bg: "gray.100",
-      overflowY: "scroll"
+      flexDir: "column"
+    }, /* @__PURE__ */ import_react43.default.createElement(Flex, {
+      layerStyle: "cursive",
+      px: 8,
+      py: 4,
+      fontSize: "2xl",
+      color: "gray.300"
+    }, "Scribble"), /* @__PURE__ */ import_react43.default.createElement(Flex, {
+      flexGrow: 1,
+      flexShrink: 1,
+      overflow: "hidden"
     }, /* @__PURE__ */ import_react43.default.createElement(Flex, {
       p: 8,
-      maxWidth: 640,
-      m: "auto",
       bg: "white",
-      overflow: "hidden",
       flexDirection: "column",
-      gap: 10
+      gap: 10,
+      overflowY: "scroll"
     }, /* @__PURE__ */ import_react43.default.createElement(Pages, {
       pages
+    }))), /* @__PURE__ */ import_react43.default.createElement(Flex, {
+      py: 2
     }))));
   };
   import_client.default.createRoot(document.getElementById("app")).render(/* @__PURE__ */ import_react43.default.createElement(App, null));

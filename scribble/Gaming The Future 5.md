@@ -1,7 +1,7 @@
 ---
 createdAt: 2022-08-08T07:10:32+00:00
 ---
-For those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/), here's a few quick links to help out:
+For those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) about the game Another World, here's a few quick links to help out:
 
 -   More info on [Wikipedia](http://en.wikipedia.org/wiki/Another_World_(video_game)),
 -   buy the game at [GOG.com](http://www.gog.com/gamecard/another_world_15th_anniversary_edition), or
