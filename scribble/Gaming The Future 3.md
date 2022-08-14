@@ -1,5 +1,7 @@
 ---
 createdAt: 2022-08-08T07:08:52+00:00
+tags: 
+ - podcasting
 ---
 For those interested in digging a little deeper into the Dune games, following [my new 'Gaming the Future' article](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/), I recommend:
 

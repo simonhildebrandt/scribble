@@ -1,5 +1,7 @@
 ---
 createdAt: 2020-12-01T00:01:50+00:00
+tags: 
+ - project
 ---
 We have a recurring problem in my household - we want to know the same things (current date/time, weather forecast, upcoming calendar events) several times a day, every day, and we each have to fumble individually for a phone to find those things out.
 

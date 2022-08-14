@@ -1,5 +1,7 @@
 ---
 createdAt: 2022-08-02T00:01:50+00:00
+tags: 
+ - podcasting
 ---
 I've loved stories read aloud ever since my parents read to me as a child. So when I discovered podcasting and fiction narration, I knew I had to give it a try.
 

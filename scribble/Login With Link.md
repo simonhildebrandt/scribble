@@ -1,5 +1,7 @@
 ---
 createdAt: 2022-08-08T00:30:05+00:00
+tags:
+ - project
 ---
 When I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.
 

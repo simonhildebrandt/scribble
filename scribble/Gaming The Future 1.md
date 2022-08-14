@@ -1,5 +1,7 @@
 ---
 createdAt: 2022-08-02T00:01:50+00:00
+tags: 
+ - podcasting
 ---
 My new series of fact articles, [Gaming the Future, has debut'd on Starship Sofa](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/). For those who are interested, he's some supporting information.
 

@@ -25,7 +25,7 @@ const App = () => {
       <Flex m="auto" maxWidth={640} width="100%" height="100%" flexDir="column">
         <Flex layerStyle="cursive" px={8} py={4} fontSize="2xl" color="gray.300">Scribble</Flex>
         <Flex flexGrow={1} flexShrink={1} overflow="hidden">
-          <Flex p={8} bg="white" flexDirection="column" gap={10} overflowY="scroll">
+          <Flex p={[4, 8]} bg="white" flexDirection="column" gap={10} overflowY="scroll">
             { <Pages pages={pages}/> }
           </Flex>
         </Flex>

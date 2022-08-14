@@ -1,5 +1,7 @@
 ---
 createdAt: 2022-08-08T07:09:57+00:00
+tags: 
+ - podcasting
 ---
 For those following my [Starship Sofa column](http://www.starshipsofa.com/2012/12/19/starshipsofa-no-269-alec-nevala-lee-part-1/), or just interested in information about Startopia, try these links:
 

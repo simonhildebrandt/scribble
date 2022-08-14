@@ -8461,7 +8461,7 @@
             }
             return element4;
           };
-          function createElement20(type, config2, children) {
+          function createElement21(type, config2, children) {
             var propName;
             var props = {};
             var key2 = null;
@@ -9537,7 +9537,7 @@
                 error3("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
               }
             }
-            var element4 = createElement20.apply(this, arguments);
+            var element4 = createElement21.apply(this, arguments);
             if (element4 == null) {
               return element4;
             }
@@ -10310,9 +10310,9 @@
           if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
             __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
           }
-          var React26 = require_react();
+          var React27 = require_react();
           var Scheduler = require_scheduler();
-          var ReactSharedInternals = React26.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+          var ReactSharedInternals = React27.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
           var suppressWarning = false;
           function setSuppressWarning(newSuppressWarning) {
             {
@@ -11833,7 +11833,7 @@
             {
               if (props.value == null) {
                 if (typeof props.children === "object" && props.children !== null) {
-                  React26.Children.forEach(props.children, function(child) {
+                  React27.Children.forEach(props.children, function(child) {
                     if (child == null) {
                       return;
                     }
@@ -16966,7 +16966,7 @@
               }
             }
           }
-          function createElement20(type, props, rootContainerElement, parentNamespace) {
+          function createElement21(type, props, rootContainerElement, parentNamespace) {
             var isCustomComponentTag;
             var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
             var domElement;
@@ -17818,7 +17818,7 @@
               }
               parentNamespace = hostContextDev.namespace;
             }
-            var domElement = createElement20(type, props, rootContainerInstance, parentNamespace);
+            var domElement = createElement21(type, props, rootContainerInstance, parentNamespace);
             precacheFiberNode(internalInstanceHandle, domElement);
             updateFiberProps(domElement, props);
             return domElement;
@@ -19994,7 +19994,7 @@
             }
           }
           var fakeInternalInstance = {};
-          var emptyRefsObject = new React26.Component().refs;
+          var emptyRefsObject = new React27.Component().refs;
           var didWarnAboutStateAssignmentForComponent;
           var didWarnAboutUninitializedState;
           var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -32000,8 +32000,8 @@
   // node_modules/@babel/runtime/helpers/extends.js
   var require_extends = __commonJS({
     "node_modules/@babel/runtime/helpers/extends.js"(exports, module) {
-      function _extends12() {
-        module.exports = _extends12 = Object.assign ? Object.assign.bind() : function(target) {
+      function _extends13() {
+        module.exports = _extends13 = Object.assign ? Object.assign.bind() : function(target) {
           for (var i = 1; i < arguments.length; i++) {
             var source = arguments[i];
             for (var key2 in source) {
@@ -32012,9 +32012,9 @@
           }
           return target;
         }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-        return _extends12.apply(this, arguments);
+        return _extends13.apply(this, arguments);
       }
-      module.exports = _extends12, module.exports.__esModule = true, module.exports["default"] = module.exports;
+      module.exports = _extends13, module.exports.__esModule = true, module.exports["default"] = module.exports;
     }
   });
 
@@ -32743,9 +32743,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
   var require_emotion_element_ae8cc4ba_cjs_dev = __commonJS({
     "node_modules/@emotion/react/dist/emotion-element-ae8cc4ba.cjs.dev.js"(exports) {
       "use strict";
-      var React26 = require_react();
+      var React27 = require_react();
       var createCache = require_emotion_cache_cjs();
-      var _extends12 = require_extends();
+      var _extends13 = require_extends();
       var weakMemoize = require_emotion_weak_memoize_cjs();
       var _isolatedHnrs_dist_emotionReact_isolatedHnrs = require_emotion_react_isolated_hnrs_cjs_dev();
       var utils = require_emotion_utils_cjs();
@@ -32773,12 +32773,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         n["default"] = e;
         return Object.freeze(n);
       }
-      var React__namespace = /* @__PURE__ */ _interopNamespace(React26);
+      var React__namespace = /* @__PURE__ */ _interopNamespace(React27);
       var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
       var weakMemoize__default = /* @__PURE__ */ _interopDefault(weakMemoize);
       var isBrowser4 = typeof document !== "undefined";
       var hasOwnProperty2 = {}.hasOwnProperty;
-      var EmotionCacheContext = /* @__PURE__ */ React26.createContext(
+      var EmotionCacheContext = /* @__PURE__ */ React27.createContext(
         typeof HTMLElement !== "undefined" ? /* @__PURE__ */ createCache__default["default"]({
           key: "css"
         }) : null
@@ -32788,23 +32788,23 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
       }
       var CacheProvider = EmotionCacheContext.Provider;
       var __unsafe_useEmotionCache = function useEmotionCache() {
-        return React26.useContext(EmotionCacheContext);
+        return React27.useContext(EmotionCacheContext);
       };
       exports.withEmotionCache = function withEmotionCache(func) {
-        return /* @__PURE__ */ React26.forwardRef(function(props, ref) {
-          var cache = React26.useContext(EmotionCacheContext);
+        return /* @__PURE__ */ React27.forwardRef(function(props, ref) {
+          var cache = React27.useContext(EmotionCacheContext);
           return func(props, cache, ref);
         });
       };
       if (!isBrowser4) {
         exports.withEmotionCache = function withEmotionCache(func) {
           return function(props) {
-            var cache = React26.useContext(EmotionCacheContext);
+            var cache = React27.useContext(EmotionCacheContext);
             if (cache === null) {
               cache = createCache__default["default"]({
                 key: "css"
               });
-              return /* @__PURE__ */ React26.createElement(EmotionCacheContext.Provider, {
+              return /* @__PURE__ */ React27.createElement(EmotionCacheContext.Provider, {
                 value: cache
               }, func(props, cache));
             } else {
@@ -32813,12 +32813,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
           };
         };
       }
-      var ThemeContext2 = /* @__PURE__ */ React26.createContext({});
+      var ThemeContext2 = /* @__PURE__ */ React27.createContext({});
       if (true) {
         ThemeContext2.displayName = "EmotionThemeContext";
       }
       var useTheme2 = function useTheme3() {
-        return React26.useContext(ThemeContext2);
+        return React27.useContext(ThemeContext2);
       };
       var getTheme2 = function getTheme3(outerTheme, theme3) {
         if (typeof theme3 === "function") {
@@ -32831,7 +32831,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         if (theme3 == null || typeof theme3 !== "object" || Array.isArray(theme3)) {
           throw new Error("[ThemeProvider] Please make your theme prop a plain object");
         }
-        return _extends12({}, outerTheme, theme3);
+        return _extends13({}, outerTheme, theme3);
       };
       var createCacheWithTheme = /* @__PURE__ */ weakMemoize__default["default"](function(outerTheme) {
         return weakMemoize__default["default"](function(theme3) {
@@ -32839,24 +32839,24 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         });
       });
       var ThemeProvider3 = function ThemeProvider4(props) {
-        var theme3 = React26.useContext(ThemeContext2);
+        var theme3 = React27.useContext(ThemeContext2);
         if (props.theme !== theme3) {
           theme3 = createCacheWithTheme(theme3)(props.theme);
         }
-        return /* @__PURE__ */ React26.createElement(ThemeContext2.Provider, {
+        return /* @__PURE__ */ React27.createElement(ThemeContext2.Provider, {
           value: theme3
         }, props.children);
       };
       function withTheme(Component2) {
         var componentName = Component2.displayName || Component2.name || "Component";
         var render = function render2(props, ref) {
-          var theme3 = React26.useContext(ThemeContext2);
-          return /* @__PURE__ */ React26.createElement(Component2, _extends12({
+          var theme3 = React27.useContext(ThemeContext2);
+          return /* @__PURE__ */ React27.createElement(Component2, _extends13({
             theme: theme3,
             ref
           }, props));
         };
-        var WithTheme = /* @__PURE__ */ React26.forwardRef(render);
+        var WithTheme = /* @__PURE__ */ React27.forwardRef(render);
         WithTheme.displayName = "WithTheme(" + componentName + ")";
         return _isolatedHnrs_dist_emotionReact_isolatedHnrs["default"](WithTheme, Component2);
       }
@@ -32936,7 +32936,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
             serializedNames += " " + next.name;
             next = next.next;
           }
-          return /* @__PURE__ */ React26.createElement("style", (_ref2 = {}, _ref2["data-emotion"] = cache.key + " " + serializedNames, _ref2.dangerouslySetInnerHTML = {
+          return /* @__PURE__ */ React27.createElement("style", (_ref2 = {}, _ref2["data-emotion"] = cache.key + " " + serializedNames, _ref2.dangerouslySetInnerHTML = {
             __html: rules
           }, _ref2.nonce = cache.sheet.nonce, _ref2));
         }
@@ -32955,7 +32955,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         } else if (props.className != null) {
           className = props.className + " ";
         }
-        var serialized = serialize.serializeStyles(registeredStyles, void 0, React26.useContext(ThemeContext2));
+        var serialized = serialize.serializeStyles(registeredStyles, void 0, React27.useContext(ThemeContext2));
         if (serialized.name.indexOf("-") === -1) {
           var labelFromStack = props[labelPropName];
           if (labelFromStack) {
@@ -32971,11 +32971,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         }
         newProps.ref = ref;
         newProps.className = className;
-        return /* @__PURE__ */ React26.createElement(React26.Fragment, null, /* @__PURE__ */ React26.createElement(Insertion, {
+        return /* @__PURE__ */ React27.createElement(React27.Fragment, null, /* @__PURE__ */ React27.createElement(Insertion, {
           cache,
           serialized,
           isStringTag: typeof WrappedComponent === "string"
-        }), /* @__PURE__ */ React26.createElement(WrappedComponent, newProps));
+        }), /* @__PURE__ */ React27.createElement(WrappedComponent, newProps));
       });
       if (true) {
         Emotion.displayName = "EmotionCssPropInternal";
@@ -32999,7 +32999,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
     "node_modules/@emotion/react/dist/emotion-react.cjs.dev.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-      var React26 = require_react();
+      var React27 = require_react();
       require_emotion_cache_cjs();
       var emotionElement = require_emotion_element_ae8cc4ba_cjs_dev();
       require_extends();
@@ -33028,7 +33028,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         n["default"] = e;
         return Object.freeze(n);
       }
-      var React__namespace = /* @__PURE__ */ _interopNamespace(React26);
+      var React__namespace = /* @__PURE__ */ _interopNamespace(React27);
       var pkg = {
         name: "@emotion/react",
         version: "11.10.0",
@@ -33153,7 +33153,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
       var jsx = function jsx2(type, props) {
         var args = arguments;
         if (props == null || !emotionElement.hasOwnProperty.call(props, "css")) {
-          return React26.createElement.apply(void 0, args);
+          return React27.createElement.apply(void 0, args);
         }
         var argsLength = args.length;
         var createElementArgArray = new Array(argsLength);
@@ -33162,9 +33162,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         for (var i = 2; i < argsLength; i++) {
           createElementArgArray[i] = args[i];
         }
-        return React26.createElement.apply(null, createElementArgArray);
+        return React27.createElement.apply(null, createElementArgArray);
       };
-      var useInsertionEffect = React__namespace["useInsertionEffect"] ? React__namespace["useInsertionEffect"] : React26.useLayoutEffect;
+      var useInsertionEffect = React__namespace["useInsertionEffect"] ? React__namespace["useInsertionEffect"] : React27.useLayoutEffect;
       var warnedAboutCssPropForGlobal = false;
       var Global3 = /* @__PURE__ */ emotionElement.withEmotionCache(function(props, cache) {
         if (!warnedAboutCssPropForGlobal && (props.className || props.css)) {
@@ -33172,7 +33172,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
           warnedAboutCssPropForGlobal = true;
         }
         var styles2 = props.styles;
-        var serialized = serialize.serializeStyles([styles2], void 0, React26.useContext(emotionElement.ThemeContext));
+        var serialized = serialize.serializeStyles([styles2], void 0, React27.useContext(emotionElement.ThemeContext));
         if (!emotionElement.isBrowser) {
           var _ref;
           var serializedNames = serialized.name;
@@ -33191,11 +33191,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
           if (shouldCache) {
             return null;
           }
-          return /* @__PURE__ */ React26.createElement("style", (_ref = {}, _ref["data-emotion"] = cache.key + "-global " + serializedNames, _ref.dangerouslySetInnerHTML = {
+          return /* @__PURE__ */ React27.createElement("style", (_ref = {}, _ref["data-emotion"] = cache.key + "-global " + serializedNames, _ref.dangerouslySetInnerHTML = {
             __html: rules
           }, _ref.nonce = cache.sheet.nonce, _ref));
         }
-        var sheetRef = React26.useRef();
+        var sheetRef = React27.useRef();
         useInsertionEffect(function() {
           var key2 = cache.key + "-global";
           var sheet = new cache.sheet.constructor({
@@ -33323,7 +33323,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         });
         if (!emotionElement.isBrowser && rules.length !== 0) {
           var _ref2;
-          return /* @__PURE__ */ React26.createElement("style", (_ref2 = {}, _ref2["data-emotion"] = cache.key + " " + serializedArr.map(function(serialized) {
+          return /* @__PURE__ */ React27.createElement("style", (_ref2 = {}, _ref2["data-emotion"] = cache.key + " " + serializedArr.map(function(serialized) {
             return serialized.name;
           }).join(" "), _ref2.dangerouslySetInnerHTML = {
             __html: rules
@@ -33358,11 +33358,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         var content3 = {
           css: css4,
           cx: cx4,
-          theme: React26.useContext(emotionElement.ThemeContext)
+          theme: React27.useContext(emotionElement.ThemeContext)
         };
         var ele = props.children(content3);
         hasRendered = true;
-        return /* @__PURE__ */ React26.createElement(React26.Fragment, null, /* @__PURE__ */ React26.createElement(Insertion, {
+        return /* @__PURE__ */ React27.createElement(React27.Fragment, null, /* @__PURE__ */ React27.createElement(Insertion, {
           cache,
           serializedArr
         }), ele);
@@ -34307,8 +34307,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
     "node_modules/@emotion/styled/base/dist/emotion-styled-base.cjs.dev.js"(exports) {
       "use strict";
       Object.defineProperty(exports, "__esModule", { value: true });
-      var _extends12 = require_extends();
-      var React26 = require_react();
+      var _extends13 = require_extends();
+      var React27 = require_react();
       var isPropValid = require_emotion_is_prop_valid_cjs();
       var react = require_emotion_react_cjs();
       var utils = require_emotion_utils_cjs();
@@ -34336,7 +34336,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
         n["default"] = e;
         return Object.freeze(n);
       }
-      var React__namespace = /* @__PURE__ */ _interopNamespace(React26);
+      var React__namespace = /* @__PURE__ */ _interopNamespace(React27);
       var isPropValid__default = /* @__PURE__ */ _interopDefault(isPropValid);
       var testOmitPropsOnStringTag = isPropValid__default["default"];
       var testOmitPropsOnComponent = function testOmitPropsOnComponent2(key2) {
@@ -34387,7 +34387,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
             serializedNames += " " + next.name;
             next = next.next;
           }
-          return /* @__PURE__ */ React26.createElement("style", (_ref2 = {}, _ref2["data-emotion"] = cache.key + " " + serializedNames, _ref2.dangerouslySetInnerHTML = {
+          return /* @__PURE__ */ React27.createElement("style", (_ref2 = {}, _ref2["data-emotion"] = cache.key + " " + serializedNames, _ref2.dangerouslySetInnerHTML = {
             __html: rules
           }, _ref2.nonce = cache.sheet.nonce, _ref2));
         }
@@ -34442,7 +34442,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
               for (var key2 in props) {
                 mergedProps[key2] = props[key2];
               }
-              mergedProps.theme = React26.useContext(react.ThemeContext);
+              mergedProps.theme = React27.useContext(react.ThemeContext);
             }
             if (typeof props.className === "string") {
               className = utils.getRegisteredStyles(cache.registered, classInterpolations, props.className);
@@ -34465,11 +34465,11 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
             }
             newProps.className = className;
             newProps.ref = ref;
-            return /* @__PURE__ */ React26.createElement(React26.Fragment, null, /* @__PURE__ */ React26.createElement(Insertion, {
+            return /* @__PURE__ */ React27.createElement(React27.Fragment, null, /* @__PURE__ */ React27.createElement(Insertion, {
               cache,
               serialized,
               isStringTag: typeof FinalTag === "string"
-            }), /* @__PURE__ */ React26.createElement(FinalTag, newProps));
+            }), /* @__PURE__ */ React27.createElement(FinalTag, newProps));
           });
           Styled.displayName = identifierName !== void 0 ? identifierName : "Styled(" + (typeof baseTag === "string" ? baseTag : baseTag.displayName || baseTag.name || "Component") + ")";
           Styled.defaultProps = tag.defaultProps;
@@ -34486,7 +34486,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
             }
           });
           Styled.withComponent = function(nextTag, nextOptions) {
-            return createStyled2(nextTag, _extends12({}, options, nextOptions, {
+            return createStyled2(nextTag, _extends13({}, options, nextOptions, {
               shouldForwardProp: composeShouldForwardProps(Styled, nextOptions, true)
             })).apply(void 0, styles2);
           };
@@ -35585,7 +35585,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
   var import_client = __toESM(require_client());
 
   // node_modules/@chakra-ui/react/dist/chakra-ui-react.esm.js
-  var React21 = __toESM(require_react());
+  var React22 = __toESM(require_react());
 
   // node_modules/@chakra-ui/css-reset/dist/chakra-ui-css-reset.esm.js
   var import_react = __toESM(require_emotion_react_cjs());
@@ -50668,7 +50668,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
     WrapItem.displayName = "WrapItem";
   }
 
-  // node_modules/@chakra-ui/react/dist/chakra-ui-react.esm.js
+  // node_modules/@chakra-ui/tag/dist/chakra-ui-tag.esm.js
+  var React21 = __toESM(require_react());
   function _objectWithoutPropertiesLoose9(source, excluded) {
     if (source == null)
       return {};
@@ -50683,10 +50684,128 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
     }
     return target;
   }
-  var _excluded9 = ["children", "toastOptions"];
+  function _extends12() {
+    _extends12 = Object.assign ? Object.assign.bind() : function(target) {
+      for (var i = 1; i < arguments.length; i++) {
+        var source = arguments[i];
+        for (var key2 in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key2)) {
+            target[key2] = source[key2];
+          }
+        }
+      }
+      return target;
+    };
+    return _extends12.apply(this, arguments);
+  }
+  var _excluded9 = ["isDisabled", "children"];
+  var _createStylesContext3 = createStylesContext("Tag");
+  var StylesProvider4 = _createStylesContext3[0];
+  var useStyles4 = _createStylesContext3[1];
+  var Tag2 = /* @__PURE__ */ forwardRef2(function(props, ref) {
+    var styles2 = useMultiStyleConfig("Tag", props);
+    var ownProps = omitThemingProps(props);
+    var containerStyles = _extends12({
+      display: "inline-flex",
+      verticalAlign: "top",
+      alignItems: "center",
+      maxWidth: "100%"
+    }, styles2.container);
+    return /* @__PURE__ */ React21.createElement(StylesProvider4, {
+      value: styles2
+    }, /* @__PURE__ */ React21.createElement(chakra.span, _extends12({
+      ref
+    }, ownProps, {
+      __css: containerStyles
+    })));
+  });
+  if (__DEV__) {
+    Tag2.displayName = "Tag";
+  }
+  var TagLabel = /* @__PURE__ */ forwardRef2(function(props, ref) {
+    var styles2 = useStyles4();
+    return /* @__PURE__ */ React21.createElement(chakra.span, _extends12({
+      ref,
+      noOfLines: 1
+    }, props, {
+      __css: styles2.label
+    }));
+  });
+  if (__DEV__) {
+    TagLabel.displayName = "TagLabel";
+  }
+  var TagLeftIcon = /* @__PURE__ */ forwardRef2(function(props, ref) {
+    return /* @__PURE__ */ React21.createElement(Icon, _extends12({
+      ref,
+      verticalAlign: "top",
+      marginEnd: "0.5rem"
+    }, props));
+  });
+  if (__DEV__) {
+    TagLeftIcon.displayName = "TagLeftIcon";
+  }
+  var TagRightIcon = /* @__PURE__ */ forwardRef2(function(props, ref) {
+    return /* @__PURE__ */ React21.createElement(Icon, _extends12({
+      ref,
+      verticalAlign: "top",
+      marginStart: "0.5rem"
+    }, props));
+  });
+  if (__DEV__) {
+    TagRightIcon.displayName = "TagRightIcon";
+  }
+  var TagCloseIcon = function TagCloseIcon2(props) {
+    return /* @__PURE__ */ React21.createElement(Icon, _extends12({
+      verticalAlign: "inherit",
+      viewBox: "0 0 512 512"
+    }, props), /* @__PURE__ */ React21.createElement("path", {
+      fill: "currentColor",
+      d: "M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+    }));
+  };
+  if (__DEV__) {
+    TagCloseIcon.displayName = "TagCloseIcon";
+  }
+  var TagCloseButton = function TagCloseButton2(props) {
+    var isDisabled = props.isDisabled, children = props.children, rest = _objectWithoutPropertiesLoose9(props, _excluded9);
+    var styles2 = useStyles4();
+    var btnStyles = _extends12({
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      outline: "0"
+    }, styles2.closeButton);
+    return /* @__PURE__ */ React21.createElement(chakra.button, _extends12({
+      "aria-label": "close"
+    }, rest, {
+      type: "button",
+      disabled: isDisabled,
+      __css: btnStyles
+    }), children || /* @__PURE__ */ React21.createElement(TagCloseIcon, null));
+  };
+  if (__DEV__) {
+    TagCloseButton.displayName = "TagCloseButton";
+  }
+
+  // node_modules/@chakra-ui/react/dist/chakra-ui-react.esm.js
+  function _objectWithoutPropertiesLoose10(source, excluded) {
+    if (source == null)
+      return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key2, i;
+    for (i = 0; i < sourceKeys.length; i++) {
+      key2 = sourceKeys[i];
+      if (excluded.indexOf(key2) >= 0)
+        continue;
+      target[key2] = source[key2];
+    }
+    return target;
+  }
+  var _excluded10 = ["children", "toastOptions"];
   var ChakraProvider3 = function ChakraProvider4(_ref) {
-    var children = _ref.children, toastOptions = _ref.toastOptions, restProps = _objectWithoutPropertiesLoose9(_ref, _excluded9);
-    return /* @__PURE__ */ React21.createElement(ChakraProvider, restProps, children, /* @__PURE__ */ React21.createElement(ToastProvider, toastOptions));
+    var children = _ref.children, toastOptions = _ref.toastOptions, restProps = _objectWithoutPropertiesLoose10(_ref, _excluded10);
+    return /* @__PURE__ */ React22.createElement(ChakraProvider, restProps, children, /* @__PURE__ */ React22.createElement(ToastProvider, toastOptions));
   };
   ChakraProvider3.defaultProps = {
     theme
@@ -50726,8 +50845,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
   }
 
   // src/content.js
-  var content_default = [{ "path": "scribble/ClockCamera.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\n---\n[ClockCamera](http://clock.camera) is a toy I envisaged sharing with my children - an excuse to do craft projects and take interesting photos, with the end goal of creating interesting digital clocks.\n\nBuilt on Firebase and MUI, the source is available [here](http://clock.camera)." }, { "path": "scribble/Gaming The Future 1.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\nMy new series of fact articles, [Gaming the Future, has debut'd on Starship Sofa](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/). For those who are interested, he's some supporting information.\n\n1.  Get the games - [Portal 1](http://store.steampowered.com/app/400/) and [Portal 2](http://store.steampowered.com/app/620/). Or the highly recommended [Orange Box](http://store.steampowered.com/sub/469/).\n2.  [Get the soundtrack for Portal 2 - free!](http://www.thinkwithportals.com/music.php)\n3.  The Portal 2 comic, illustrated by Michael Avon Oeming and Andrea Wicklund, written by Ted Kosmatka - [Lab Rat](http://www.thinkwithportals.com/comic/).\n\nLook out for episode #2 - Homeworld.\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/Gaming The Future 2.md", "content": "---\ncreatedAt: 2022-08-08T07:07:32+00:00\n---\nFor those interested in more information about the Homeworld games, I'd recommend the following links:\n\n-   [Watch the cinematics on YouTube](http://www.youtube.com/watch?v=yrW4jkQdmjI) - they're lovely, and give you a good background for the game.\n-   [Relic's download page for Homeworld-related stuff](http://www.relicnews.com/homeworld/hw-downloads/) - demos, patches, desktop themes - even the source code of the game, and a unit viewer.\n\nHope you enjoyed my article, and I'll see you in a month, with my next topic: Frank Herbert's Dune.\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/Gaming The Future 3.md", "content": "---\ncreatedAt: 2022-08-08T07:08:52+00:00\n---\nFor those interested in digging a little deeper into the Dune games, following [my new 'Gaming the Future' article](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/), I recommend:\n\n1.  [Checking out the soundtrack of Dune 1 on Youtube](http://www.youtube.com/watch?v=FjHon6yg-r8&feature=related).\n2.  [Take a look at the list of Dune games on Wikipedia](http://en.wikipedia.org/wiki/List_of_Dune_games).\n3.  [Checking out the original film](http://www.imdb.com/title/tt0087182/).\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/Gaming The Future 4.md", "content": `---
+  var content_default = [{ "path": "scribble/ClockCamera.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\ntags: \n - project\n---\n[ClockCamera](http://clock.camera) is a toy I envisaged sharing with my children - an excuse to do craft projects and take interesting photos, with the end goal of creating interesting digital clocks.\n\nBuilt on Firebase and MUI, the source is available [here](http://clock.camera)." }, { "path": "scribble/Gaming The Future 1.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\ntags: \n - podcasting\n---\nMy new series of fact articles, [Gaming the Future, has debut'd on Starship Sofa](http://www.starshipsofa.com/2012/09/19/starshipsofa-no-256-charlie-jane-anders/). For those who are interested, he's some supporting information.\n\n1.  Get the games - [Portal 1](http://store.steampowered.com/app/400/) and [Portal 2](http://store.steampowered.com/app/620/). Or the highly recommended [Orange Box](http://store.steampowered.com/sub/469/).\n2.  [Get the soundtrack for Portal 2 - free!](http://www.thinkwithportals.com/music.php)\n3.  The Portal 2 comic, illustrated by Michael Avon Oeming and Andrea Wicklund, written by Ted Kosmatka - [Lab Rat](http://www.thinkwithportals.com/comic/).\n\nLook out for episode #2 - Homeworld.\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/Gaming The Future 2.md", "content": "---\ncreatedAt: 2022-08-08T07:07:32+00:00\ntags: \n - podcasting\n---\nFor those interested in more information about the Homeworld games, I'd recommend the following links:\n\n-   [Watch the cinematics on YouTube](http://www.youtube.com/watch?v=yrW4jkQdmjI) - they're lovely, and give you a good background for the game.\n-   [Relic's download page for Homeworld-related stuff](http://www.relicnews.com/homeworld/hw-downloads/) - demos, patches, desktop themes - even the source code of the game, and a unit viewer.\n\nHope you enjoyed my article, and I'll see you in a month, with my next topic: Frank Herbert's Dune.\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/Gaming The Future 3.md", "content": "---\ncreatedAt: 2022-08-08T07:08:52+00:00\ntags: \n - podcasting\n---\nFor those interested in digging a little deeper into the Dune games, following [my new 'Gaming the Future' article](http://www.starshipsofa.com/2012/11/06/starshipsofa-no-263-pamela-sargent/), I recommend:\n\n1.  [Checking out the soundtrack of Dune 1 on Youtube](http://www.youtube.com/watch?v=FjHon6yg-r8&feature=related).\n2.  [Take a look at the list of Dune games on Wikipedia](http://en.wikipedia.org/wiki/List_of_Dune_games).\n3.  [Checking out the original film](http://www.imdb.com/title/tt0087182/).\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/Gaming The Future 4.md", "content": `---
 createdAt: 2022-08-08T07:09:57+00:00
+tags: 
+ - podcasting
 ---
 For those following my [Starship Sofa column](http://www.starshipsofa.com/2012/12/19/starshipsofa-no-269-alec-nevala-lee-part-1/), or just interested in information about Startopia, try these links:
 
@@ -50743,8 +50864,10 @@ Including my favourite: "Ask those aliens if they've crashed into the New Mexico
 
 [http://forums.eidosgames.com/archive/index.php/t-17524.html](http://forums.eidosgames.com/archive/index.php/t-17524.html)
 
-Our music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission.` }, { "path": "scribble/Gaming The Future 5.md", "content": "---\ncreatedAt: 2022-08-08T07:10:32+00:00\n---\nFor those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) about the game Another World, here's a few quick links to help out:\n\n-   More info on [Wikipedia](http://en.wikipedia.org/wiki/Another_World_(video_game)),\n-   buy the game at [GOG.com](http://www.gog.com/gamecard/another_world_15th_anniversary_edition), or\n-   buy it on the [Android Play Store](https://play.google.com/store/apps/details?id=com.dotemu.anotherworld&hl=en).\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/L5.md", "content": "---\ncreatedAt: 2022-08-08T03:32:26+00:00\n---\nL5 is a game concept - a cute management sim where the player builds and tunes a 3D modular space habitat.\n\nCurrent ambition is to prototype in Unity, exploring controls, art and core systems.\n\nExamples of modules:\n - Basic hab  \n - Power: Solar, fission, fusion  \n - Batteries  \n - Water tanks  \n - Storage  \n - Dormitory  \n - Hydroponics  \n - Kitchen  \n - Engineering, fabrication  \n - Smelting  \n - Air processing  \n - Engines  \n - Armour  \n - Weapons  \n - Comms  \n - Mining  \n - Access tube  \n - Waste processing?  \n  \nResources: Water, bio-waste, air, power, food, metal  \n  \n[https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html](https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html)" }, { "path": "scribble/Light Tiles.md", "content": "---\ncreatedAt: 2022-07-15T00:01:50+00:00\n---\n\nA design for tileable panels, similar to Nanoleaf \n\n[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  \n\nTranslucent plastic cover as diffuser\n  \n[Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  \n" }, { "path": "scribble/Login With Link.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\n---\nWhen I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.\n\nI still struggle with access control, but to take control of my auth issues I decided to try building my own solution. The result: [Login With Link](http://login-with.link) - a minimal passwordless authentication system.\n\nIt uses Firebase (ironically) for hosting, database and cloud functions, and Amazon's SES for email sending. It's currently free for hobbyist usage, and the code is [here](https://github.com/simonhildebrandt/login-with-link)." }, { "path": "scribble/New Site.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\n---\n[simonhildebrandt.com](http://simonhildebrandt.com) badly needs an update, so I'm starting a new project to create something that's reasonably live.\n\n### Basic requirements\n - Markdown content managed through [Obsidian](https://obsidian.md/) \n - Hosting through [Firebase](https://firebase.google.com/)\n - Deployment via [Github Actions]([https://github.com/marketplace/actions/deploy-to-firebase-hosting#options](https://github.com/marketplace/actions/deploy-to-firebase-hosting#options))\n - Templated static HTML (for SSO) overlaid with [Chakra UI](https://chakra-ui.com/) based themed view\n\n### Advanced Features\n - RSS\n - Full text search, tag filtering\n " }, { "path": "scribble/Podcasting.md", "content": `---
+Our music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission.` }, { "path": "scribble/Gaming The Future 5.md", "content": "---\ncreatedAt: 2022-08-08T07:10:32+00:00\ntags: \n - podcasting\n---\nFor those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) about the game Another World, here's a few quick links to help out:\n\n-   More info on [Wikipedia](http://en.wikipedia.org/wiki/Another_World_(video_game)),\n-   buy the game at [GOG.com](http://www.gog.com/gamecard/another_world_15th_anniversary_edition), or\n-   buy it on the [Android Play Store](https://play.google.com/store/apps/details?id=com.dotemu.anotherworld&hl=en).\n\nOur music is by [Cheapshot](http://cheapshot.bandcamp.com/), from the album [Streets of Bass](http://cheapshot.bandcamp.com/album/streets-of-bass), used with permission." }, { "path": "scribble/L5.md", "content": "---\ncreatedAt: 2022-08-08T03:32:26+00:00\ntags: \n - project\n - games\n---\nL5 is a game concept - a cute management sim where the player builds and tunes a 3D modular space habitat.\n\nCurrent ambition is to prototype in Unity, exploring controls, art and core systems.\n\nExamples of modules:\n - Basic hab  \n - Power: Solar, fission, fusion  \n - Batteries  \n - Water tanks  \n - Storage  \n - Dormitory  \n - Hydroponics  \n - Kitchen  \n - Engineering, fabrication  \n - Smelting  \n - Air processing  \n - Engines  \n - Armour  \n - Weapons  \n - Comms  \n - Mining  \n - Access tube  \n - Waste processing?  \n  \nResources: Water, bio-waste, air, power, food, metal  \n  \n[https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html](https://space.nss.org/settlement/nasa/70sArtHiRes/70sArt/art.html)" }, { "path": "scribble/Light Tiles.md", "content": "---\ncreatedAt: 2022-07-15T00:01:50+00:00\ntags: \n - project\n - electronics\n---\n\nA design for tileable panels, similar to Nanoleaf \n\n[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  \n\nTranslucent plastic cover as diffuser\n  \n[Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  \n" }, { "path": "scribble/Login With Link.md", "content": "---\ncreatedAt: 2022-08-08T00:30:05+00:00\ntags:\n - project\n---\nWhen I started using [Firebase](https://firebase.google.com/) I found two things awkward (that were supposedly strengths of the platform!) - securing access to data, and user authentication.\n\nI still struggle with access control, but to take control of my auth issues I decided to try building my own solution. The result: [Login With Link](http://login-with.link) - a minimal passwordless authentication system.\n\nIt uses Firebase (ironically) for hosting, database and cloud functions, and Amazon's SES for email sending. It's currently free for hobbyist usage, and the code is [here](https://github.com/simonhildebrandt/login-with-link)." }, { "path": "scribble/New Site.md", "content": "---\ncreatedAt: 2022-08-02T00:01:50+00:00\ntags: \n - project\n---\n[simonhildebrandt.com](http://simonhildebrandt.com) badly needs an update, so I'm starting a new project to create something that's reasonably live.\n\n### Basic requirements\n - Markdown content managed through [Obsidian](https://obsidian.md/) \n - Hosting through [Firebase](https://firebase.google.com/)\n - Deployment via [Github Actions]([https://github.com/marketplace/actions/deploy-to-firebase-hosting#options](https://github.com/marketplace/actions/deploy-to-firebase-hosting#options))\n - Templated static HTML (for SSO) overlaid with [Chakra UI](https://chakra-ui.com/) based themed view\n\n### Advanced Features\n - RSS\n - Full text search, tag filtering\n " }, { "path": "scribble/Podcasting.md", "content": `---
 createdAt: 2022-08-02T00:01:50+00:00
+tags: 
+ - podcasting
 ---
 I've loved stories read aloud ever since my parents read to me as a child. So when I discovered podcasting and fiction narration, I knew I had to give it a try.
 
@@ -50802,7 +50925,7 @@ In addition to narrating stories I've also started contributing periodic article
 -   Quirks & Quarks Segmented Show from CBC Radio
 -   Rudy Rucker on GigaDial Public
 -   Lightspeed Magazine
--   StarShip Sofa` }, { "path": "scribble/Radiator.md", "content": "---\ncreatedAt: 2020-12-01T00:01:50+00:00\n---\nWe have a recurring problem in my household - we want to know the same things (current date/time, weather forecast, upcoming calendar events) several times a day, every day, and we each have to fumble individually for a phone to find those things out.\n\nSolution: an ambient screen - an information radiator.\n\n## Ideas\nI'd love to use an e-ink display - both for power consumption and aesthetic. A light, low power PC like a Raspberry Pi would suit the scale of the project. Future-proofing would be nice too - using the computer for other services like [Plex](http://plex.tv) would be great.\n\n### Implementation\n#### Hardware\n - [DFRobot 10.1\" 800x1280 mini-HDMI IPS Display](http://dfrobot.com/product-2063.html). First casualty of the 'light and simple' ethos was the e-ink display - both affording and driving one started to seem way too difficult. Instead we've got a simple little HDMI display - powered by USB (so it's easily hosted the PC) and very reasonably priced.\n - [Gigabyte BRIX-s](https://www.gigabyte.com/au/Mini-PcBarebone/BRIX-s). Here's where I went a little crazy. Instead of 'the simplest thing that works', I started thinking about the 'future-proofing' angle and Plex, and ended up grabbing one of these (from [PC Case Gear](https://www.pccasegear.com/products/48357/gigabyte-brix-gb-blce-4105r-barebone-kit).)\n \n#### Software\n - [Ubuntu](https://ubuntu.com/). Had everything I needed - startup items, solid browser, up to date, good support for third party stuff like Plex.\n - [radiator.link](radiator.link). (More about this below.)\n \n#### The build\n\nThe Gigabyte system was very easy to put together - sensibly designed with good instructions. Dropped in a 	Kingston A400 2.5in SATA SSD 480GB and some Kingston ValueRAM 8GB (1x8GB) 2400MHz CL17 DDR4 SODIMM (also from PC Case Gear), added a USB hard drive [configured using the Ubuntu bootable drive instructions](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) and it booted perfectly the first time. \n\n#### Configuration\n\nOnce I had Ubuntu up and running (after a little fiddling with my wifi config to disable AP isolation so I could connect to it) it was time to get it configured.\n\n1. SSH access. Super simple - just `apt-get install openssh-server`, and [keep an eye out for the firewall](openssh-server).\n2. Tweak the display. The notes for the monitor apologetically explain that it starts in portrait mode - but actually this was what I wanted. What I quickly realised though is that the cables plug into what is then the 'top' of the display, so I flipped the display in Ubuntu's display settings.\n\nNext I had to think about the actual presentation - what I wanted to display, and how. I wanted a kind of 'kiosk mode' - no OS chrome, no mouse pointer, no login. Simple things first - `apt-get install unclutter` gave me the mouse hiding behaviour I wanted, just by adding `unclutter -idle 1.0 -root` as a startup item; and Ubuntu includes [automatic login](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en) as a preference.\n\nThen, information display. I wanted something configurable, with at least date and time, weather forecast, calendar events. Being a web developer my first thought was to whip something up using those tools, and with a little experimentation I found that Firefox has a built in kiosk mode that I could exploit by creating another startup item like this: `firefox --kiosk https://radiator.link/for/our-cool-radiator`.\n\n#### [Radiator.link](http://radiator.link)\n\nI felt like I was going to be hacking on this for a while, and that it might be useful for others too, so I [grabbed a cheap domain name](https://www.crazydomains.com.au/) (not so cheap after I had to spending twice the cost of the domain for basic TXT record tools, frustratingly) and some handy [Firebase hosting](https://firebase.google.com/products/hosting).\n\nThe site is my [default barebones web stack](https://github.com/simonhildebrandt/my-webbapp-starter) - [Browserify](http://browserify.org/), [Babel](https://babeljs.io/), [React](https://reactjs.org/), plus best-in-class supporting libraries [Luxon](https://moment.github.io/luxon/) and [Axios](https://github.com/axios/axios). (In the future it'll use Firebase for managing personal details, for customisation.)\n\nThe finished result (plus photobomber.)\n\n![radiator screen with photobomber](assets/radiator-new.jpeg)\n\n#### Update, January 2021\n\n![Updated view](assets/radiator-update.png)\n\nAll configuration moved to Firebase, with unique URLs to access different instances; OpenWeatherMap and Google Calendar integration complete." }];
+-   StarShip Sofa` }, { "path": "scribble/Radiator.md", "content": "---\ncreatedAt: 2020-12-01T00:01:50+00:00\ntags: \n - project\n---\nWe have a recurring problem in my household - we want to know the same things (current date/time, weather forecast, upcoming calendar events) several times a day, every day, and we each have to fumble individually for a phone to find those things out.\n\nSolution: an ambient screen - an information radiator.\n\n## Ideas\nI'd love to use an e-ink display - both for power consumption and aesthetic. A light, low power PC like a Raspberry Pi would suit the scale of the project. Future-proofing would be nice too - using the computer for other services like [Plex](http://plex.tv) would be great.\n\n### Implementation\n#### Hardware\n - [DFRobot 10.1\" 800x1280 mini-HDMI IPS Display](http://dfrobot.com/product-2063.html). First casualty of the 'light and simple' ethos was the e-ink display - both affording and driving one started to seem way too difficult. Instead we've got a simple little HDMI display - powered by USB (so it's easily hosted the PC) and very reasonably priced.\n - [Gigabyte BRIX-s](https://www.gigabyte.com/au/Mini-PcBarebone/BRIX-s). Here's where I went a little crazy. Instead of 'the simplest thing that works', I started thinking about the 'future-proofing' angle and Plex, and ended up grabbing one of these (from [PC Case Gear](https://www.pccasegear.com/products/48357/gigabyte-brix-gb-blce-4105r-barebone-kit).)\n \n#### Software\n - [Ubuntu](https://ubuntu.com/). Had everything I needed - startup items, solid browser, up to date, good support for third party stuff like Plex.\n - [radiator.link](radiator.link). (More about this below.)\n \n#### The build\n\nThe Gigabyte system was very easy to put together - sensibly designed with good instructions. Dropped in a 	Kingston A400 2.5in SATA SSD 480GB and some Kingston ValueRAM 8GB (1x8GB) 2400MHz CL17 DDR4 SODIMM (also from PC Case Gear), added a USB hard drive [configured using the Ubuntu bootable drive instructions](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) and it booted perfectly the first time. \n\n#### Configuration\n\nOnce I had Ubuntu up and running (after a little fiddling with my wifi config to disable AP isolation so I could connect to it) it was time to get it configured.\n\n1. SSH access. Super simple - just `apt-get install openssh-server`, and [keep an eye out for the firewall](openssh-server).\n2. Tweak the display. The notes for the monitor apologetically explain that it starts in portrait mode - but actually this was what I wanted. What I quickly realised though is that the cables plug into what is then the 'top' of the display, so I flipped the display in Ubuntu's display settings.\n\nNext I had to think about the actual presentation - what I wanted to display, and how. I wanted a kind of 'kiosk mode' - no OS chrome, no mouse pointer, no login. Simple things first - `apt-get install unclutter` gave me the mouse hiding behaviour I wanted, just by adding `unclutter -idle 1.0 -root` as a startup item; and Ubuntu includes [automatic login](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en) as a preference.\n\nThen, information display. I wanted something configurable, with at least date and time, weather forecast, calendar events. Being a web developer my first thought was to whip something up using those tools, and with a little experimentation I found that Firefox has a built in kiosk mode that I could exploit by creating another startup item like this: `firefox --kiosk https://radiator.link/for/our-cool-radiator`.\n\n#### [Radiator.link](http://radiator.link)\n\nI felt like I was going to be hacking on this for a while, and that it might be useful for others too, so I [grabbed a cheap domain name](https://www.crazydomains.com.au/) (not so cheap after I had to spending twice the cost of the domain for basic TXT record tools, frustratingly) and some handy [Firebase hosting](https://firebase.google.com/products/hosting).\n\nThe site is my [default barebones web stack](https://github.com/simonhildebrandt/my-webbapp-starter) - [Browserify](http://browserify.org/), [Babel](https://babeljs.io/), [React](https://reactjs.org/), plus best-in-class supporting libraries [Luxon](https://moment.github.io/luxon/) and [Axios](https://github.com/axios/axios). (In the future it'll use Firebase for managing personal details, for customisation.)\n\nThe finished result (plus photobomber.)\n\n![radiator screen with photobomber](assets/radiator-new.jpeg)\n\n#### Update, January 2021\n\n![Updated view](assets/radiator-update.png)\n\nAll configuration moved to Firebase, with unique URLs to access different instances; OpenWeatherMap and Google Calendar integration complete." }];
 
   // src/theme.js
   var theme2 = extendTheme({
@@ -66176,7 +66299,11 @@ ${end.comment}` : end.comment;
   function parseDate(date) {
     return new Intl.DateTimeFormat("default", dateTimeOptions).format(new Date(date));
   }
+  var tagColouring = ["red", "orange", "green", "blue", "yellow"];
   function Pages({ pages }) {
+    const tags = [...new Set(pages.map((page) => page.data.tags || []).flat())];
+    const tagColours = Object.fromEntries(tags.map((tag, i) => [tag, tagColouring[i % tagColouring.length] + ".400"]));
+    console.log(tagColours);
     return pages.map(({ data, value: value2 }) => /* @__PURE__ */ import_react41.default.createElement(Box, {
       key: data.path,
       id: data.path
@@ -66196,11 +66323,19 @@ ${end.comment}` : end.comment;
       color: "gray.300"
     }, /* @__PURE__ */ import_react41.default.createElement(Link2, {
       href: `#${data.path}`
-    }, /* @__PURE__ */ import_react41.default.createElement(LinkIcon, null)))), /* @__PURE__ */ import_react41.default.createElement(Box, {
-      color: "gray.400"
+    }, /* @__PURE__ */ import_react41.default.createElement(LinkIcon, null)))), /* @__PURE__ */ import_react41.default.createElement(Flex, {
+      color: "gray.400",
+      justify: "space-between",
+      with: "100%"
     }, /* @__PURE__ */ import_react41.default.createElement("time", {
       dateTime: data.createdAt
-    }, parseDate(data.createdAt))), /* @__PURE__ */ import_react41.default.createElement(Box, {
+    }, parseDate(data.createdAt)), /* @__PURE__ */ import_react41.default.createElement(Flex, {
+      gap: 2
+    }, data?.tags?.map((tag) => /* @__PURE__ */ import_react41.default.createElement(Tag2, {
+      key: tag,
+      bg: tagColours[tag],
+      color: "white"
+    }, tag)))), /* @__PURE__ */ import_react41.default.createElement(Box, {
       dangerouslySetInnerHTML: { __html: value2 }
     })));
   }
@@ -66235,7 +66370,7 @@ ${end.comment}` : end.comment;
       flexShrink: 1,
       overflow: "hidden"
     }, /* @__PURE__ */ import_react43.default.createElement(Flex, {
-      p: 8,
+      p: [4, 8],
       bg: "white",
       flexDirection: "column",
       gap: 10,
