@@ -66303,7 +66303,6 @@ ${end.comment}` : end.comment;
   function Pages({ pages }) {
     const tags = [...new Set(pages.map((page) => page.data.tags || []).flat())];
     const tagColours = Object.fromEntries(tags.map((tag, i) => [tag, tagColouring[i % tagColouring.length] + ".400"]));
-    console.log(tagColours);
     return pages.map(({ data, value: value2 }) => /* @__PURE__ */ import_react41.default.createElement(Box, {
       key: data.path,
       id: data.path

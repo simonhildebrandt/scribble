@@ -24,10 +24,7 @@ const tagColouring = ['red', 'orange', 'green', 'blue', 'yellow'];
 // Highlight key error: https://github.com/chakra-ui/chakra-ui/issues/6321
 export default function Pages({pages}) {
   const tags = [...new Set(pages.map(page => page.data.tags || []).flat())]
-
   const tagColours = Object.fromEntries(tags.map((tag, i) => [tag, tagColouring[i % tagColouring.length] + '.400']));
-
-  console.log(tagColours);
 
   return pages.map(({data, value}) => (
     <Box key={data.path} id={data.path}>
