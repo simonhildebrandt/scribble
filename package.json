@@ -14,7 +14,9 @@
     "cp-content": "cp -r scribble/assets public",
     "cp-html": "cp dev/index.html public/index.html",
     "build_prod": "yarn esbuild src/index.jsx --bundle --outfile=public/index.js",
-    "compile": "yarn export-md && yarn cp-content && yarn cp-html && yarn build_prod"
+    "compile": "yarn export-md && yarn cp-content && yarn cp-html && yarn build_prod",
+    "deploy": "firebase deploy --only hosting",
+    "build-and-publish": "yarn compile && yarn deploy"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
