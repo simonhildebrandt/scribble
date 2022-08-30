@@ -11,7 +11,7 @@ I took over hosting duties for the (now mothballed) [Protecting Project Pulp pod
 
 # Narrating
 
-So far I've read stories for the following District of Wonders podcasts - [Starship Sofa](http://www.starshipsofa.com/), [Tales to Terrify](http://talestoterrify.com/) and [Protecting Project Pulp](http://protectingprojectpulp.com/) - and Amanda McCall's romance podcast, [RomPod](http://rompod.com/) (now defunct). I'm hoping to contribute to [Librivox](http://librivox.org/) some day, and I'd love to contribute to other fiction podcasts too.
+So far I've read stories for the following District of Wonders podcasts - [Starship Sofa](http://www.starshipsofa.com/), [Tales to Terrify](http://talestoterrify.com/) and [Protecting Project Pulp](http://ppp.requisite.link/) - and Amanda McCall's romance podcast, [RomPod](http://rompod.com/) (now defunct). I'm hoping to contribute to [Librivox](http://librivox.org/) some day, and I'd love to contribute to other fiction podcasts too.
 
 1.  Frankenstein, Frankenstein by [Will McIntosh](http://en.wikipedia.org/wiki/Will_McIntosh) - published in [Starship Sofa #195](http://www.starshipsofa.com/blog/2011/06/29/starshipsofa-no-195-will-mcintosh/) (10:50)
 2.  Eight Miles by [Sean McMullen](http://www.seanmcmullen.net.au/news.htm) - published in [Starship Sofa #189](http://www.starshipsofa.com/blog/2011/05/18/starshipsofa-no-189-sean-mcmullen/) (43:50)
@@ -23,13 +23,14 @@ So far I've read stories for the following District of Wonders podcasts - [Stars
 8.  Green Apples, Red Nails by [John Everson](http://www.johneverson.com/) - published in [Tales to Terrify #7](http://talestoterrify.com/tales-to-terrify-no-7-john-everson) (39:40)
 9.  Hypergraphia by Ken Lillie-Paetz - published in [Tales to Terrify #10](http://talestoterrify.com/tales-to-terrify-no-10-bram-stoker-awards-special-part-2/) (48:22)
 10.  Greenland by Chris Beckett - published in [Starship Sofa #253](http://www.starshipsofa.com/2012/08/29/starshipsofa-no-253-chris-beckett/) (19:20)
-11.  Raider of the Spaceways by Henry Kuttner - published in [Protecting Project Pulp #16](http://protectingprojectpulp.com/protecting-project-pulp-no-16-henry-kuttner/) (3:00)
+11.  Raiders of the Spaceways by Henry Kuttner - published in [Protecting Project Pulp #16](http://ppp.requisite.link/#16) (3:00)
 12.  Impulse Control by Susan Bischoff - published in [RomPod #6](http://rompod.com/post/42306680966/episode-6-susan-bischoff-impulse-control)
 13.  Private Dancer by Ciar Cullen - published in [RomPod #13](http://rompod.com/post/46887403486/episode-13-ciar-cullen-private-dancer)
 14.  At the Sign of the Black Dove by [Lou Morgan](http://www.loumorgan.co.uk/) - published in [Tales to Terrify #71](http://talestoterrify.com/tales-to-terrify-no-71-neputin-morgan/) (24:18)
-15.  The Opener of the Way by Robert Bloch - published in [Protecting Project Pulp #59](http://protectingprojectpulp.com/protecting-project-pulp-59-robert-bloch/)
-16.  World’s End by Henry Kuttner - published in [Protecting Project Pulp #74](http://protectingprojectpulp.com/protecting-project-pulp-74-henry-kuttner/)
-17.  Inspector Zhang Gets His Wish by [Stephen Leather](http://www.stephenleather.com/) - published in [Crime City Central #106](http://crimecitycentral.com/crime-city-central-no-106-stephen-leather/)
+15. The Problem of Cell 13 by Jacques Futrelle - published in [Protecting Project Pulp #48](http://ppp.requisite.link/#48)
+16.  The Opener of the Way by Robert Bloch - published in [Protecting Project Pulp #59](http://ppp.requisite.link/#59)
+17.  World’s End by Henry Kuttner - published in [Protecting Project Pulp #74](http://ppp.requisite.link/#74)
+18.  Inspector Zhang Gets His Wish by [Stephen Leather](http://www.stephenleather.com/) - published in [Crime City Central #106](http://crimecitycentral.com/crime-city-central-no-106-stephen-leather/)
 
 # Gaming the Future
 
