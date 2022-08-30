@@ -13,7 +13,7 @@
     "export-md-watch": "nodemon --watch scribble -e md tools/build_js.mjs",
     "cp-content": "cp -r scribble/assets public",
     "cp-html": "cp dev/index.html public/index.html",
-    "build_prod": "NODE_ENV=production yarn esbuild src/index.jsx --bundle --outfile=public/index.js",
+    "build_prod": "yarn esbuild src/index.jsx --bundle --outfile=public/index.js --define:process.env.NODE_ENV=\\\"production\\\"",
     "compile": "yarn export-md && yarn cp-content && yarn cp-html && yarn build_prod",
     "deploy": "firebase deploy --only hosting",
     "build-and-publish": "yarn compile && yarn deploy"
