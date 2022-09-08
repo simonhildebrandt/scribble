@@ -3,6 +3,7 @@ createdAt: 2022-07-15T00:01:50+00:00
 tags: 
  - project
  - electronics
+ - leds
 ---
 
 A design for tileable panels, similar to Nanoleaf 

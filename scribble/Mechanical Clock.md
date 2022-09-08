@@ -2,6 +2,7 @@
 createdAt: 2020-08-08T00:30:05+00:00
 tags:
  - project
+ - lasercut
 ---
 Another variation on my obsession with building clocks of various types - a servo-driven dual-belt design. 
 
