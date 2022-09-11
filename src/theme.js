@@ -19,9 +19,9 @@ const theme = extendTheme({
       },
       body: {
         fontSize: "16px",
-        lineHeight: "24px"
+        lineHeight: "26px"
       },
-      h1: { 
+      h1: {
         fontSize: 'xl',
         my: '4'
       },

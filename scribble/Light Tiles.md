@@ -8,7 +8,7 @@ tags:
 
 A design for tileable panels, similar to Nanoleaf 
 
-[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), mounted with headers onto custom PCB, with addressable RGBs  
+[XIAO BT prototyping board](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html), ([[XIAO Notes]]) mounted with headers onto custom PCB, with addressable RGBs  
 
 Translucent plastic cover as diffuser
   
