@@ -7,7 +7,7 @@ const theme = extendTheme({
     }
   },
   fonts: {
-    body: "Domine",
+    body: "EB Garamond",
   },
   fontSizes: {
     xl: "18px",
@@ -18,7 +18,7 @@ const theme = extendTheme({
         maxWidth: "100%",
       },
       body: {
-        fontSize: "16px",
+        fontSize: "20px",
         lineHeight: "26px"
       },
       h1: {
