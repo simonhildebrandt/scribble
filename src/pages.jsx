@@ -8,11 +8,11 @@ function getName(path) {
 }
 
 const dateTimeOptions = {
-  hour: 'numeric', 
-  minute: 'numeric', 
+  hour: 'numeric',
+  minute: 'numeric',
   second: 'numeric',
-  year: 'numeric', 
-  month: 'short', 
+  year: 'numeric',
+  month: 'short',
   day: 'numeric',
   timeZoneName: 'short'
 }
@@ -27,7 +27,7 @@ export default function Pages({pages}) {
   const tagColours = Object.fromEntries(tags.map((tag, i) => [tag, tagColouring[i % tagColouring.length] + '.400']));
 
   return pages.map(({data, value}) => (
-    <Box key={data.path} id={data.path}>
+    <Flex key={data.path} id={data.path} flexDir="column">
       <Flex bg="gray.200" px={4} py={2} mb={6} borderRadius={4} color="gray.400" align="center">
         <Highlight query={getName(data.path)}styles={{color: 'gray.700'}}>
           {data.path}
@@ -38,7 +38,7 @@ export default function Pages({pages}) {
           </Link>
         </Box>
       </Flex>
-      <Flex color="gray.400" justify="space-between" with="100%">
+      <Flex color="gray.400" justify="space-between" width="100%">
         <time dateTime={data.createdAt}>
           {parseDate(data.createdAt)}
         </time>
@@ -49,6 +49,6 @@ export default function Pages({pages}) {
         </Flex>
       </Flex>
       <Box dangerouslySetInnerHTML={{ __html: value }} />
-    </Box>
+    </Flex>
   ))
 }

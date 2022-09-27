@@ -17,9 +17,12 @@ const theme = extendTheme({
       img: {
         maxWidth: "100%",
       },
+      "*, *::before, ::after": {
+        wordWrap: "anywhere"
+      },
       body: {
-        fontSize: "20px",
-        lineHeight: "26px"
+        fontSize: ["16px", "20px"],
+        lineHeight: "26px",
       },
       h1: {
         fontSize: 'xl',
