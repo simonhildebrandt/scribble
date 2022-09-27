@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Highlight, Link, Tag } from '@chakra-ui/react';
+import { chakra, Box, Flex, Highlight, Link, Tag } from '@chakra-ui/react';
 import { LinkIcon } from '@chakra-ui/icons'
 
 
@@ -7,17 +7,20 @@ function getName(path) {
   return path.slice(9, path.length - 3);
 }
 
-const dateTimeOptions = {
-  hour: 'numeric',
-  minute: 'numeric',
-  second: 'numeric',
+const defaultDateTimeOptions = {
   year: 'numeric',
   month: 'short',
   day: 'numeric',
-  timeZoneName: 'short'
 }
-function parseDate(date) {
-  return new Intl.DateTimeFormat('default', dateTimeOptions).format(new Date(date));
+const longDateTimeOptions = {
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric',
+  timeZoneName: 'short',
+}
+function parseDate(date, { long = false } = {}) {
+  const options = {...defaultDateTimeOptions, ...(long ? longDateTimeOptions : {})}
+  return new Intl.DateTimeFormat('default', options).format(new Date(date));
 }
 
 const tagColouring = ['red', 'orange', 'green', 'blue', 'yellow'];
@@ -29,7 +32,7 @@ export default function Pages({pages}) {
   return pages.map(({data, value}) => (
     <Flex key={data.path} id={data.path} flexDir="column">
       <Flex bg="gray.200" px={4} py={2} mb={6} borderRadius={4} color="gray.400" align="center">
-        <Highlight query={getName(data.path)}styles={{color: 'gray.700'}}>
+        <Highlight query={getName(data.path)} styles={{color: 'gray.700'}}>
           {data.path}
         </Highlight>
         <Box ml={2} color="gray.300">
@@ -39,9 +42,12 @@ export default function Pages({pages}) {
         </Box>
       </Flex>
       <Flex color="gray.400" justify="space-between" width="100%">
-        <time dateTime={data.createdAt}>
+        <chakra.time dateTime={data.createdAt} display={['none', 'block']}>
+          {parseDate(data.createdAt, {long: true})}
+        </chakra.time>
+        <chakra.time dateTime={data.createdAt} display={['block', 'none']}>
           {parseDate(data.createdAt)}
-        </time>
+        </chakra.time>
         <Flex gap={2}>
           { data?.tags?.map(tag => (
           <Tag key={tag} bg={tagColours[tag]} color="white">{tag}</Tag>
