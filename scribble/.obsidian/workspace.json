@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "558f9d8da3507ba6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Scrawl Editor.md",
-            "mode": "source",
-            "source": false
+        "id": "486662f58b566806",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "558f9d8da3507ba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scrawl Editor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -131,8 +139,8 @@
   "active": "558f9d8da3507ba6",
   "lastOpenFiles": [
     "Scrawl.md",
-    "Podcasting.md",
     "Scrawl Editor.md",
+    "Podcasting.md",
     "Radiator.md",
     "XIAO Notes.md",
     "Light Tiles.md",
