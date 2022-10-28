@@ -11,9 +11,17 @@
             "id": "558f9d8da3507ba6",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "01fcc37c127002ff",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Scrawl Editor.md",
+                "file": "TV App.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +57,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -85,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scrawl Editor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scrawl Editor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Scrawl Editor.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -138,15 +142,15 @@
   },
   "active": "558f9d8da3507ba6",
   "lastOpenFiles": [
-    "Scrawl.md",
+    "Untitled.md",
+    "TV App.md",
+    "Mechanical Clock.md",
     "Scrawl Editor.md",
+    "assets/tv-app.png",
+    "Scrawl.md",
     "Podcasting.md",
     "Radiator.md",
     "XIAO Notes.md",
-    "Light Tiles.md",
-    "L5.md",
-    "TV App.md",
-    "here.md",
-    "New Site.md"
+    "Light Tiles.md"
   ]
 }

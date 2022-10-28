@@ -8,7 +8,7 @@ Another variation on my obsession with building clocks of various types - a serv
 
 Here's the completed (seconds) belt (there's also a similar 12 segment hours belt):
 
-![radiator screen with photobomber](assets/number-belt.jpeg)
+![clock belt assembly](assets/number-belt.jpeg)
 
 The remaining work involves some sort of motor and driver system (likely an Arduino and matching motor shield)
 
