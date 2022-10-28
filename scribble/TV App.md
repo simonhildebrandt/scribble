@@ -8,6 +8,6 @@ tags:
 ---
 Keeping track of TV shows can be a hassle - I'd like a simple web app that I can search for tv shows (and movies), track ones I'd like to watch (or are currently), and mark off episodes to keep track of my progress.
 
-![tv app screenshot](tv-app.png)
+![tv app screenshot](assets/tv-app.png)
 
 Prototype: [tv.requisite.link](http://tv.requisite.link).
