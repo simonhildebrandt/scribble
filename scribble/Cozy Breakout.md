@@ -1,6 +1,6 @@
 ---
 createdAt: 2023-09-01T00:01:50+00:00
-tags: 
+tags:
  - project
  - game
  - unity
@@ -9,4 +9,4 @@ While investigating [DragonRuby](https://dragonruby.org/) I decided my idea coul
 
 Progress so far includes bouncing balls, walls, destroyable tiles.
 
-![[breakout.png]]
+![screenshot](assets/breakout.png)
