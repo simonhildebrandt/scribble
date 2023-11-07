@@ -45,6 +45,6 @@
     "to-vfile": "^7.2.3",
     "unified": "^10.1.2",
     "unist-util-visit": "^4.1.0",
-    "yaml": "^2.1.1"
+    "yaml": "^2.2.2"
   }
 }
