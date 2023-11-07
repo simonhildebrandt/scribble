@@ -1,3 +1,10 @@
+---
+createdAt: 2022-06-08T00:30:05+00:00
+tags: 
+ - project
+ - public-speaking
+ - javascript
+---
 (This blog post represents my evolving notes for [my presentation at Web Directions Code] (https://webdirections.org/code/speakers/simon-hildebrandt.php) )
 
 "browsers can now do Bluetooth - crazy, huh? Here's some background on Bluetooth (history and technology) and here's the browser api. Here's a weird custom device demonstrating what an embedded device with Bluetooth can report, here's a website receiving that info, and (bonus) here's that info streaming to anyone else **looking** at that website (probably bridged with Firebase.)"
