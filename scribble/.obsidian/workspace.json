@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cozy Breakout.md",
+                "file": "Game Assets.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cozy Breakout.md",
+                "file": "Game Assets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cozy Breakout.md",
+                "file": "Game Assets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cozy Breakout.md"
+                "file": "Game Assets.md"
               }
             }
           }
@@ -229,17 +229,17 @@
   },
   "active": "cafe63aa4f540000",
   "lastOpenFiles": [
+    "ViaThis.Link.md",
+    "Login With Link.md",
+    "Cozy Breakout.md",
     "Chassis.md",
     "Bluetooth In The Browser.md",
     "ClockCamera.md",
     "Dictionarily.md",
     "Game Assets.md",
-    "ViaThis.Link.md",
-    "Cozy Breakout.md",
     "Figma, SVG, React workflow.md",
     "SVG Globe.md",
     "RunTo.Store.md",
-    "Login With Link.md",
     "Podcasting.md",
     "Gaming The Future 1.md",
     "assets/breakout.png",

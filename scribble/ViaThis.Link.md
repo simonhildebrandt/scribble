@@ -7,4 +7,4 @@ tags:
  - react
  - mongodb
 ---
-[ViaThis.Link](https://ViaThis.Link) is planned as a link saving and sharing service. Currently it supports authentication (via [[Login With Link]]) and I'm prototyping the link harvesting mechanism (via, on Android at least, [PWA `share_target`](https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target)). I'm pulling MongoDB in as a datastore.
+[ViaThis.Link](https://ViaThis.Link) is planned as a link saving and sharing service. Currently it supports authentication (via [[Login With Link|Login With Link]]) and I'm prototyping the link harvesting mechanism (via, on Android at least, [PWA `share_target`](https://developer.mozilla.org/en-US/docs/Web/Manifest/share_target)). I'm pulling MongoDB in as a datastore.
