@@ -15,8 +15,17 @@ const App = () => {
   let pages = parseMd(content);
 
   pages.sort((a,b) => {
-    return b.data.createdAt.localeCompare(a.data.createdAt);
-  });
+    if (a.data.createdAt) {
+      if (b.data.createdAt) {
+        return b.data.createdAt.localeCompare(a.data.createdAt);
+      } else {
+        console.error("Missing date from ", b);
+      }
+    } else {
+      console.error("Missing date from ", a);
+    }
+  return -1;
+});
 
   // pages = pages.slice(6)
 

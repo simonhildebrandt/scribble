@@ -6,8 +6,8 @@ import extract from 'remark-extract-frontmatter';
 import frontmatter from 'remark-frontmatter';
 import { parse } from 'yaml';
 
-import obsidian from './obsidian-links-plugin';
-import extraData from './extra-data-plugin';
+import obsidian from './obsidian-links-plugin.js';
+import extraData from './extra-data-plugin.js';
 
 
 export default function parseMd(content) {

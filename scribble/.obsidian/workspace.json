@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "2f23b01fc02a4c01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sand Garden.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54dc378a22416d33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bluetooth In The Browser.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "31a9ca1499609496",
             "type": "leaf",
             "state": {
@@ -92,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Assets.md",
+                "file": "Bluetooth In The Browser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game Assets.md",
+                "file": "Bluetooth In The Browser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Assets.md"
+                "file": "Bluetooth In The Browser.md"
               }
             }
           }
@@ -227,8 +251,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cafe63aa4f540000",
+  "active": "54dc378a22416d33",
   "lastOpenFiles": [
+    "XIAO Notes.md",
+    "SVG Globe.md",
+    "Game Assets.md",
+    "Sand Garden.md",
     "ViaThis.Link.md",
     "Login With Link.md",
     "Cozy Breakout.md",
@@ -236,9 +264,7 @@
     "Bluetooth In The Browser.md",
     "ClockCamera.md",
     "Dictionarily.md",
-    "Game Assets.md",
     "Figma, SVG, React workflow.md",
-    "SVG Globe.md",
     "RunTo.Store.md",
     "Podcasting.md",
     "Gaming The Future 1.md",
@@ -249,7 +275,6 @@
     "assets/tv-app.png",
     "Scrawl.md",
     "Radiator.md",
-    "XIAO Notes.md",
     "Light Tiles.md"
   ]
 }
