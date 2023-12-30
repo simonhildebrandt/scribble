@@ -3,7 +3,7 @@ import "@babel/polyfill";
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { ChakraProvider, Flex, Link } from '@chakra-ui/react';
+import { ChakraProvider, Flex, Link, Image } from '@chakra-ui/react';
 
 import content from "./content";
 import { theme } from './theme';
@@ -31,8 +31,9 @@ const App = () => {
 
   return <ChakraProvider theme={theme} resetCSS={false}>
     <Flex bg="gray.100" width="100%" height="100%" flexDir="column">
-      <Flex layerStyle="cursive" px={8} py={4} fontSize="2xl" maxWidth={640} mx="auto">
+      <Flex layerStyle="cursive" px={8} py={4} fontSize="2xl" maxWidth={640} mx="auto" gap="8px">
         <Link href="/" color="gray.300">Scribble</Link>
+        <Link href="/feed.xml"><Image src="assets/rss_icon.svg" boxSize="16px"/></Link>
       </Flex>
       <Flex flexGrow={1} flexShrink={1} overflow="hidden" width="100%">
         <Flex flexDirection="column" overflowY="scroll" width="100%">

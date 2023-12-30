@@ -43,8 +43,6 @@ fs.writeFile('src/content.js', "export default " + JSON.stringify(records));
 
 const result = parseMd(records);
 
-console.log(result);
-
 const site = "https://simonhildebrandt.com";
 
 const feed = new RSS({
@@ -63,5 +61,4 @@ result.forEach(item => feed.item({
   description: item.value,
 }))
 
-console.log(feed.xml({indent: true}));
 fs.writeFile('public/feed.xml', feed.xml({indent: true}));
