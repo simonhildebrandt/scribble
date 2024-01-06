@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sand Garden.md",
+                "file": "Barfly.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sand Garden.md",
+                "file": "Barfly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sand Garden.md",
+                "file": "Barfly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sand Garden.md"
+                "file": "Barfly.md"
               }
             }
           }
@@ -266,11 +266,13 @@
   "active": "d9ac1103149d7e6a",
   "lastOpenFiles": [
     "Projects.md",
+    "Light Tiles.md",
+    "Scrawl Editor.md",
+    "Sand Garden.md",
     "Chassis.md",
     "Bluetooth In The Browser.md",
     "authenticated users.md",
     "Barfly.md",
-    "Sand Garden.md",
     "Cozy Breakout.md",
     "Game Assets.md",
     "assets/rss_icon.svg",
@@ -289,10 +291,8 @@
     "assets/breakout.png",
     "TV App.md",
     "Mechanical Clock.md",
-    "Scrawl Editor.md",
     "assets/tv-app.png",
     "Scrawl.md",
-    "Radiator.md",
-    "Light Tiles.md"
+    "Radiator.md"
   ]
 }
