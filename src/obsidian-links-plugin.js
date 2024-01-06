@@ -17,14 +17,13 @@ const plugin = (options={}) => (tree) => {
         return fragments.map(fragment => {
           let result = fragment.match(BRACKET_LINK_REGEX);
           if (result) {
-            const [_bracketLink, link, heading, text]= result;
-
+            const [_bracketLink, link, heading, text] = result;
             return {
               type: 'link',
               url: linkBuilder(link),
               children: [{
                 type: "text",
-                value: heading || text
+                value: heading || text || link
               }]
             }
           } else {
