@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bluetooth In The Browser.md",
+                "file": "Sand Garden.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9ac1103149d7e6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sand Garden.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -190,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bluetooth In The Browser.md",
+                "file": "Sand Garden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bluetooth In The Browser.md",
+                "file": "Sand Garden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bluetooth In The Browser.md"
+                "file": "Sand Garden.md"
               }
             }
           }
@@ -251,20 +263,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "54dc378a22416d33",
+  "active": "d9ac1103149d7e6a",
   "lastOpenFiles": [
+    "Projects.md",
+    "Chassis.md",
+    "Bluetooth In The Browser.md",
+    "authenticated users.md",
+    "Barfly.md",
+    "Sand Garden.md",
+    "Cozy Breakout.md",
+    "Game Assets.md",
     "assets/rss_icon.svg",
     "assets/4375064_logo_rss_icon.svg",
     "assets/rss_icon.png",
     "XIAO Notes.md",
     "SVG Globe.md",
-    "Game Assets.md",
-    "Sand Garden.md",
     "ViaThis.Link.md",
     "Login With Link.md",
-    "Cozy Breakout.md",
-    "Chassis.md",
-    "Bluetooth In The Browser.md",
     "ClockCamera.md",
     "Dictionarily.md",
     "Figma, SVG, React workflow.md",

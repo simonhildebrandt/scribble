@@ -1,9 +1,9 @@
 ---
-createdAt: 2023-10-25T00:01:50+00:00
+createdAt: 2024-01-05T00:01:50+00:00
 tags:
- - project
- - lasercut
- - electronics
+  - project
+  - lasercut
+  - electronics
 ---
 I've seen a [few sculptural sand gardens around](https://www.etsy.com/au/listing/921645810/automatic-zen-garden-sand-bowl-kinetic), but the price and the closed nature of the control system has been a bit off-putting. As usual I've decided "I could just design and build one". 😅
 
