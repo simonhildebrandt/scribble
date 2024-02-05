@@ -5,7 +5,7 @@ tags:
  - public-speaking
  - javascript
 ---
-(This blog post represents my evolving notes for [my presentation at Web Directions Code](https://webdirections.org/code/speakers/simon-hildebrandt.php) ) - the finished presentation (with all the working code) is here: https://github.com/simonhildebrandt/bluetooth
+(This blog post represents my evolving notes for [my presentation at Web Directions Code](https://webdirections.org/code/speakers/simon-hildebrandt.php) - [now available on the conference website here](https://conffab.com/presentation/wait-my-browser-can-do-bluetooth/?gl=mSYpGpvgrnKz)) - the finished presentation (with all the working code) is here: https://github.com/simonhildebrandt/bluetooth
 
 "browsers can now do Bluetooth - crazy, huh? Here's some background on Bluetooth (history and technology) and here's the browser api. Here's a weird custom device demonstrating what an embedded device with Bluetooth can report, here's a website receiving that info, and (bonus) here's that info streaming to anyone else **looking** at that website (probably bridged with Firebase.)"
 

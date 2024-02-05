@@ -1,7 +1,7 @@
 ---
-createdAt: 2022-08-08T07:10:32+00:00
-tags: 
- - podcasting
+createdAt: 2021-08-08T07:10:32+00:00
+tags:
+  - podcasting
 ---
 For those interested in [my latest column on Starship Sofa](http://www.starshipsofa.com/2013/02/13/starshipsofa-no-276-ken-liu/) about the game Another World, here's a few quick links to help out:
 

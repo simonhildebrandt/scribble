@@ -13,3 +13,5 @@ A design for tileable panels, similar to Nanoleaf
 Translucent plastic cover as diffuser
   
 [Paired magnetic connectors](https://www.aliexpress.com/item/1005003079080793.html) on hinged mount to allow dodecahedron arrangement  
+
+Source (including board layout) in [repo](https://github.com/simonhildebrandt/light-tiles).
