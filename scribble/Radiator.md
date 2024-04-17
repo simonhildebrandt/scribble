@@ -21,7 +21,7 @@ I'd love to use an e-ink display - both for power consumption and aesthetic. A l
  
 #### The build
 
-The Gigabyte system was very easy to put together - sensibly designed with good instructions. Dropped in a 	Kingston A400 2.5in SATA SSD 480GB and some Kingston ValueRAM 8GB (1x8GB) 2400MHz CL17 DDR4 SODIMM (also from PC Case Gear), added a USB hard drive [configured using the Ubuntu bootable drive instructions](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) and it booted perfectly the first time. 
+The Gigabyte system was very easy to put together - sensibly designed with good instructions. Dropped in a Kingston A400 2.5in SATA SSD 480GB and some Kingston ValueRAM 8GB (1x8GB) 2400MHz CL17 DDR4 SODIMM (also from PC Case Gear), added a USB hard drive [configured using the Ubuntu bootable drive instructions](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) and it booted perfectly the first time. 
 
 #### Configuration
 
@@ -32,7 +32,9 @@ Once I had Ubuntu up and running (after a little fiddling with my wifi config to
 
 Next I had to think about the actual presentation - what I wanted to display, and how. I wanted a kind of 'kiosk mode' - no OS chrome, no mouse pointer, no login. Simple things first - `apt-get install unclutter` gave me the mouse hiding behaviour I wanted, just by adding `unclutter -idle 1.0 -root` as a startup item; and Ubuntu includes [automatic login](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en) as a preference.
 
-Then, information display. I wanted something configurable, with at least date and time, weather forecast, calendar events. Being a web developer my first thought was to whip something up using those tools, and with a little experimentation I found that Firefox has a built in kiosk mode that I could exploit by creating another startup item like this: `firefox --kiosk https://radiator.link/for/our-cool-radiator`.
+Then, information display. I wanted something configurable, with at least date and time, weather forecast, caendar events. Being a web developer my first thought was to whip something up using those tools, and with a little experimentation I found that Firefox has a built in kiosk mode that I could exploit by creating another startup item like this: `firefox --kiosk https://radiator.link/for/our-cool-radiator`.
+
+EDIT: I'm now using Chromium, so my current command is: `chromium --password-store=basic --kiosk https://radiator.link/for/our-cool-radiator`. (The password store option was necessitated by a recent change to Chrome that bit me during an upgrade - Chrome will demand access to a keyring in Ubuntu, to store passwords, which stalled my 'login-free' boot experience - this option prevents that.)
 
 #### [Radiator.link](http://radiator.link)
 
