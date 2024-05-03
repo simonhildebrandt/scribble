@@ -28,7 +28,7 @@
     "@emotion/styled": "^11",
     "esbuild": "^0.14.18",
     "firebase": "^9.9.1",
-    "firebase-tools": "^11.4.2",
+    "firebase-tools": "^13.6.0",
     "framer-motion": "^4",
     "glob": "^8.0.3",
     "live-server": "1.2.1",
