@@ -1,5 +1,5 @@
 ---
-createdAt: 2024-007-07T00:30:05+00:00
+createdAt: 2024-07-07T00:30:05+00:00
 tags:
   - firebase
   - javascript

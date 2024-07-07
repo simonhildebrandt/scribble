@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects.md",
+                "file": "Enumeryx.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects.md",
+                "file": "Enumeryx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects.md",
+                "file": "Enumeryx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects.md"
+                "file": "Enumeryx.md"
               }
             }
           }
@@ -155,6 +155,8 @@
   },
   "active": "275702a627dba49c",
   "lastOpenFiles": [
+    "Gaming The Future 1.md",
+    "Projects.md",
     "Enumeryx.md",
     "Figma, SVG, React workflow.md",
     "Chassis.md",
@@ -173,14 +175,12 @@
     "templates/frontmatter-template.md",
     "templates/frontmatter-template",
     "templates",
-    "Projects.md",
     "ClockCamera.md",
     "Light Tiles.md",
     "Gaming The Future 5.md",
     "Gaming The Future 4.md",
     "Gaming The Future 3.md",
     "Gaming The Future 2.md",
-    "Gaming The Future 1.md",
     "Barfly.md",
     "Infinity LEDs.md",
     "assets/rss_icon.svg",

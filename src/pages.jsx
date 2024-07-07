@@ -18,9 +18,14 @@ const longDateTimeOptions = {
   second: 'numeric',
   timeZoneName: 'short',
 }
-function parseDate(date, { long = false } = {}) {
+function parseDate(data, { long = false } = {}) {
+  const date = data.createdAt;
   const options = {...defaultDateTimeOptions, ...(long ? longDateTimeOptions : {})}
-  return new Intl.DateTimeFormat('default', options).format(new Date(date));
+  try {
+    return new Intl.DateTimeFormat('default', options).format(new Date(date));
+  } catch(exp) {
+    console.log('error parsing data on', data);
+  }
 }
 
 const tagColouring = ['red', 'orange', 'green', 'blue', 'yellow'];
@@ -43,10 +48,10 @@ export default function Pages({pages}) {
       </Flex>
       <Flex color="gray.400" justify="space-between" width="100%">
         <chakra.time dateTime={data.createdAt} display={['none', 'block']}>
-          {parseDate(data.createdAt, {long: true})}
+          {parseDate(data, {long: true})}
         </chakra.time>
         <chakra.time dateTime={data.createdAt} display={['block', 'none']}>
-          {parseDate(data.createdAt)}
+          {parseDate(data)}
         </chakra.time>
         <Flex gap={2}>
           { data?.tags?.map(tag => (
