@@ -4,131 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "486662f58b566806",
+        "id": "2a72f4a565af4458",
         "type": "tabs",
         "children": [
           {
-            "id": "0dd8e0a74a0285db",
+            "id": "275702a627dba49c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bluetooth In The Browser.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cafe63aa4f540000",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Game Assets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f23b01fc02a4c01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sand Garden.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54dc378a22416d33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sand Garden.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9ac1103149d7e6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Radiator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31a9ca1499609496",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cozy Breakout.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cd7f651904ff808",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Figma, SVG, React workflow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fe609d4808361ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SVG Globe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1705f826805fa86c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RunTo.Store.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e950658988d816a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ViaThis.Link.md",
+                "file": "Projects.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Radiator.md",
+                "file": "Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Radiator.md",
+                "file": "Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Radiator.md"
+                "file": "Projects.md"
               }
             }
           }
@@ -262,19 +153,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9ac1103149d7e6a",
+  "active": "275702a627dba49c",
   "lastOpenFiles": [
+    "Enumeryx.md",
+    "Figma, SVG, React workflow.md",
+    "Chassis.md",
+    "ViaThis.Link.md",
+    "RunTo.Store.md",
+    "SVG Globe.md",
+    "Cozy Breakout.md",
+    "Bluetooth In The Browser.md",
+    "Game Assets.md",
+    "Sand Garden.md",
+    "Radiator.md",
     "Untitled.md",
     "Untitled 1.md",
     "TV App.md",
-    "Radiator.md",
     "Untitled 2.md",
     "templates/frontmatter-template.md",
     "templates/frontmatter-template",
     "templates",
-    "Bluetooth In The Browser.md",
     "Projects.md",
-    "Sand Garden.md",
     "ClockCamera.md",
     "Light Tiles.md",
     "Gaming The Future 5.md",
@@ -284,17 +183,9 @@
     "Gaming The Future 1.md",
     "Barfly.md",
     "Infinity LEDs.md",
-    "Figma, SVG, React workflow.md",
-    "Scrawl Editor.md",
-    "Chassis.md",
-    "authenticated users.md",
-    "Cozy Breakout.md",
-    "Game Assets.md",
     "assets/rss_icon.svg",
     "assets/4375064_logo_rss_icon.svg",
     "assets/rss_icon.png",
-    "XIAO Notes.md",
-    "SVG Globe.md",
     "assets/breakout.png",
     "assets/tv-app.png"
   ]

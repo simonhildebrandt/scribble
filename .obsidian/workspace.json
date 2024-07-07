@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0fef49ee8031c12a",
+        "id": "ca4f2e88c6befc9c",
         "type": "tabs",
         "children": [
           {
-            "id": "59640e9ec61ba1de",
+            "id": "9b5aaa6b753dbb07",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "scribble/Barfly.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c1d98946795fe5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scribble/Cozy Breakout.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,6 +77,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "a5ac80ea3261b82a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "scribble/Cozy Breakout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "scribble/Cozy Breakout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "scribble/Cozy Breakout.md"
+              }
             }
           }
         ]
@@ -138,6 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59640e9ec61ba1de",
-  "lastOpenFiles": []
+  "active": "4a7a3225585df283",
+  "lastOpenFiles": [
+    "scribble/Enumeryx.md",
+    "scribble/Barfly.md"
+  ]
 }
