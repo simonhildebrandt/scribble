@@ -5,7 +5,7 @@ tags:
   - lasercut
   - electronics
 ---
-I've seen a [few sculptural sand gardens around](https://www.etsy.com/au/listing/921645810/automatic-zen-garden-sand-bowl-kinetic), but the price and the closed nature of the control system has been a bit off-putting. As usual I've decided "I could just design and build one". 😅
+I've seen a [few sculptural sand gardens around](https://www.etsy.com/au/listing/921645810/automatic-zen-garden-sand-bowl-kinetic), but the price and the closed nature of the control system has been a bit off-putting. As usual I've decided "I could just design and build one".
 
 I've got a [Github repo](https://github.com/simonhildebrandt/sand-garden) to track the design, and below I have my initial manifest of parts.
 

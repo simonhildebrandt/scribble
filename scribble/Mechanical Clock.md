@@ -6,7 +6,7 @@ tags:
 ---
 Another variation on my obsession with building clocks of various types - a servo-driven dual-belt design. 
 
-Here's the completed (seconds) belt (there's also a similar 12 segment hours belt):
+Here's the completed (minutes) belt (there's also a similar 12 segment hours belt):
 
 ![clock belt assembly](assets/number-belt.jpeg)
 

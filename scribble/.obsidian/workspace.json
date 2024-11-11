@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2a72f4a565af4458",
+        "id": "cd83f98bccb5664f",
         "type": "tabs",
         "children": [
           {
-            "id": "275702a627dba49c",
+            "id": "c0de58515ade7408",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumeryx.md",
+                "file": "Dictionarily.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cff2f2e9fd51c919",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YAML-Linter.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "clo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeryx.md",
+                "file": "YAML-Linter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeryx.md",
+                "file": "YAML-Linter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeryx.md"
+                "file": "YAML-Linter.md"
               }
             }
           }
@@ -153,36 +166,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "275702a627dba49c",
+  "active": "cff2f2e9fd51c919",
   "lastOpenFiles": [
+    "TV App.md",
+    "YAML-Linter.md",
+    "XIAO Notes.md",
     "Gaming The Future 1.md",
-    "Projects.md",
+    "Dictionarily.md",
+    "Cozy Breakout.md",
+    "templates/frontmatter-template.md",
+    "Mechanical Clock.md",
+    "Bluetooth In The Browser.md",
+    "Infinity LEDs.md",
     "Enumeryx.md",
+    "Projects.md",
     "Figma, SVG, React workflow.md",
     "Chassis.md",
     "ViaThis.Link.md",
     "RunTo.Store.md",
     "SVG Globe.md",
-    "Cozy Breakout.md",
-    "Bluetooth In The Browser.md",
     "Game Assets.md",
     "Sand Garden.md",
     "Radiator.md",
-    "Untitled.md",
     "Untitled 1.md",
-    "TV App.md",
     "Untitled 2.md",
-    "templates/frontmatter-template.md",
     "templates/frontmatter-template",
     "templates",
     "ClockCamera.md",
     "Light Tiles.md",
     "Gaming The Future 5.md",
     "Gaming The Future 4.md",
-    "Gaming The Future 3.md",
-    "Gaming The Future 2.md",
-    "Barfly.md",
-    "Infinity LEDs.md",
     "assets/rss_icon.svg",
     "assets/4375064_logo_rss_icon.svg",
     "assets/rss_icon.png",
