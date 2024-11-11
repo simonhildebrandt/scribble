@@ -10,4 +10,4 @@ A recent production issue at work reminded me that the YAML format has plenty of
 
 So I spent some hours learning the lower level Psych APIs and built one - it's here: [[https://github.com/simonhildebrandt/yaml-linter]]
 
-(First version just identifies re-used mapping keys, which is the particular problem we tripped over - hopefully future versions will check for known ambiguous valuers like 'no' and maybe even do some fuzzy-matching to check for typos.)
+(First version just identifies re-used mapping keys, which is the particular problem we tripped over - hopefully future versions will check for known ambiguous values like 'no' and maybe even do some fuzzy-matching to check for typos.)
