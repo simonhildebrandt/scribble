@@ -70,4 +70,4 @@ node_modules/
 dev/*.js
 src/content.js
 
-public/feed.xml
+public/*
