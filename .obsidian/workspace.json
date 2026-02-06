@@ -16,7 +16,9 @@
                 "file": "scribble/Barfly.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Barfly"
             }
           },
           {
@@ -25,10 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scribble/Cozy Breakout.md",
+                "file": "scribble/TIL - HandBrake.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "TIL - HandBrake"
             }
           }
         ],
@@ -51,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +74,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -83,14 +94,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 308.5
   },
   "right": {
     "id": "1a67f176f72309b1",
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scribble/Cozy Breakout.md",
+                "file": "scribble/TIL - HandBrake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TIL - HandBrake"
             }
           },
           {
@@ -123,10 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scribble/Cozy Breakout.md",
+                "file": "scribble/TIL - HandBrake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TIL - HandBrake"
             }
           },
           {
@@ -136,8 +153,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -146,8 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scribble/Cozy Breakout.md"
-              }
+                "file": "scribble/TIL - HandBrake.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TIL - HandBrake"
             }
           }
         ]
@@ -159,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -167,9 +194,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a7a3225585df283",
+  "active": "2c1d98946795fe5e",
   "lastOpenFiles": [
-    "scribble/Enumeryx.md",
-    "scribble/Barfly.md"
+    "Foundation.S0310.mp4",
+    "Foundation.S03E09.mp4",
+    "scribble/Cozy Breakout.md",
+    "scribble/Barfly.md",
+    "scribble/Enumeryx.md"
   ]
 }
