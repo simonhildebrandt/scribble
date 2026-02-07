@@ -11,8 +11,8 @@ A simple website to help you explore things you might have been taught, but have
 
 Built as a way of learning [Eleventy](https://www.11ty.dev/) and so I can finally do a serious evaluation of [Tailwind](https://tailwindcss.com/) (the former is quite powerful but the learning curve is steep, the latter didn't grab me.)
 
-Site: (https://refresher.requisite.link/)
+Site: [refresher.requisite.link](https://refresher.requisite.link/)
 
-Source: (https://github.com/simonhildebrandt/refresher)
+Source: [https://github.com/simonhildebrandt/refresher](https://github.com/simonhildebrandt/refresher)
 
 (The search functionality is custom-built, and will likely be extracted and packaged for reuse for the Eleventy community (and beyond)).

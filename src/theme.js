@@ -1,10 +1,10 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
   layerStyles: {
     cursive: {
-      fontFamily: 'Playball, cursive'
-    }
+      fontFamily: "Playball, cursive",
+    },
   },
   fonts: {
     body: "EB Garamond",
@@ -18,27 +18,31 @@ const theme = extendTheme({
         maxWidth: "100%",
       },
       "*, *::before, ::after": {
-        wordWrap: "anywhere"
+        wordWrap: "anywhere",
       },
       body: {
         fontSize: ["16px", "20px"],
         lineHeight: "26px",
       },
       h1: {
-        fontSize: 'xl',
-        my: '4'
+        fontSize: "xl",
+        my: "4",
       },
       a: {
-        color: 'green.500',
+        color: "green.500",
         _hover: {
-          color: 'green.400'
+          color: "green.400",
         },
         _visited: {
-          color: 'green.600'
-        }
-      }
-    }
-  }
+          color: "green.600",
+        },
+      },
+      pre: {
+        width: "100%",
+        overflow: "auto",
+      },
+    },
+  },
 });
 
 export { theme };
