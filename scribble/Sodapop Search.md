@@ -8,7 +8,7 @@ tags:
   - 11ty
 ---
 
-Sodapop Search was originally built for an [Eleventy](https://www.11ty.dev/) [[Refresher|Refresher]], but has now been extracted as a standalone package - hopefully others will find it useful.
+Sodapop Search was originally built for my [Eleventy](https://www.11ty.dev/)-based project [[Refresher|Refresher]], but has now been extracted as a standalone package - hopefully others will find it useful.
 
 (The examples below are drawn from the [[Refresher|Refresher]] codebase - you can see that source code [here](https://github.com/simonhildebrandt/refresher).)
 

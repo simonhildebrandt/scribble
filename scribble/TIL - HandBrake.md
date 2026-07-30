@@ -11,5 +11,5 @@ Optimising media for my Chromecasts is fiddly - here's what's been working for m
 
 ```
 HandBrakeCLI -Z "Chromecast 1080p30 Surround" -i infile.mkv -o outfile.mp4
-cp -R /home/qbittorrent-nox/Downloads/
+cp -R /home/source-videos/
 ```
